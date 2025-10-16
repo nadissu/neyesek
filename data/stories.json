@@ -1,423 +1,478 @@
 {
-    "stories": [
-      {
-        "id": 1,
-        "title": "Kırmızı Başlıklı Kız",
-        "category": "Klasik Masallar",
-        "ageGroup": "6-8",
-        "icon": "🧺",
-        "summary": "Kırmızı başlıklı bir kız, hasta büyükannesine sepet götürürken kurnaz bir kurtla karşılaşır.",
-        "characters": [
-          "Kırmızı Başlıklı Kız",
-          "Kurt",
-          "Büyükanne",
-          "Anne",
-          "Oduncu"
-        ],
-        "views": 1,
-        "content": [
-          "Bir zamanlar küçük bir köyde, herkesin Kırmızı Başlıklı Kız diye çağırdığı sevimli bir kız yaşıyordu. Büyükannesi ona kırmızı bir başlık hediye etmişti ve kız onu çok seviyordu.",
-          "Bir gün annesi ona dedi ki: 'Kırmızı Başlıklı Kız, büyükannen hasta. Ona bu sepeti götür ama sakın yoldan ayrılma ve kimseyle konuşma!'",
-          "Kırmızı Başlıklı Kız sepeti aldı ve yola koyuldu. Ormanda yürürken bir kurda rastladı. Kurt ona nereye gittiğini sordu. Kız unutup büyükannesine gittiğini söyledi.",
-          "Kurt hızla büyükannesinin evine gitti, büyükanneyi dolaba sakladı ve onun yerine yatağa yattı. Kırmızı Başlıklı Kız gelince, 'Büyükanne, kulakların ne kadar büyük!' dedi.",
-          "'Seni daha iyi duymak için yavrucuğum,' dedi kurt. 'Gözlerin ne kadar büyük!' 'Seni daha iyi görmek için!' 'Dişlerin ne kadar büyük!' 'Seni daha iyi yemek için!'",
-          "Tam o sırada oradan geçen bir oduncu sesleri duydu ve içeri koştu. Kurdu korkutup kaçırdı ve büyükanneyi dolabtan kurtardı.",
-          "Kırmızı Başlıklı Kız o günden sonra annesinin sözünü dinledi ve yabancılarla konuşmadı."
-        ],
-        "moral": "Büyüklerin sözünü dinlemek ve yabancılarla konuşmamak önemlidir.",
-        "isAI": false
-      },
-      {
-        "id": 2,
-        "title": "Üç Küçük Domuz",
-        "category": "Klasik Masallar",
-        "ageGroup": "3-5",
-        "icon": "🏠",
-        "summary": "Üç domuz kardeş evlerini yaparken farklı malzemeler kullanır. Kötü kurt geldiğinde hangisinin evi dayanıklıdır?",
-        "characters": [
-          "İlk Domuz",
-          "İkinci Domuz",
-          "Üçüncü Domuz",
-          "Kötü Kurt"
-        ],
-        "views": 1,
-        "content": [
-          "Bir zamanlar üç küçük domuz kardeş varmış. Büyüyünce evlerinden ayrılıp kendi evlerini yapmaya karar vermişler.",
-          "İlk domuz tembel bir domuzmuş. Samanlardan bir ev yapmış. Çok hızlı bitirmiş ama ev çok zayıfmış.",
-          "İkinci domuz odun dallarından bir ev yapmış. O da çok uzun sürmemiş ama yine de sağlam değilmiş.",
-          "Üçüncü domuz çok çalışkanmış. Tuğlalardan sağlam bir ev yapmış. Aylar sürmüş ama çok sağlammış.",
-          "Bir gün kötü bir kurt gelmiş. İlk domuzun evine 'Üfleyeceğim, püfleyeceğim, evinizi yıkacağım!' demiş. Üflemiş püflemiş, saman ev yıkılmış. Domuz ikinci domuzun evine kaçmış.",
-          "Kurt ikinci eve de gelmiş. Yine üflemiş püflemiş, tahta ev de yıkılmış. İki domuz üçüncü domuzun evine kaçmışlar.",
-          "Kurt tuğla eve gelmiş. Ne kadar üflese de püflese de ev yıkılmamış. Sonunda kurt bacadan girmeye çalışmış ama domuzlar ocakta büyük bir tencere kaynayan su hazırlamışlar. Kurt düşüp kaçmış.",
-          "Üç domuz kardeş tuğla evde mutlu mesut yaşamışlar."
-        ],
-        "moral": "Çalışkanlık ve sabır her zaman kazandırır. İşi doğru yapmak önemlidir.",
-        "isAI": false
-      },
-      {
-        "id": 3,
-        "title": "Keloğlan ve Saç Saçan",
-        "category": "Türk Masalları",
-        "ageGroup": "6-8",
-        "icon": "🧙",
-        "summary": "Zeki Keloğlan, güçlü Saç Saçan Dev'i akıllıca planlarıyla yenerek prensesle evlenir.",
-        "characters": [
-          "Keloğlan",
-          "Saç Saçan Dev",
-          "Padişah",
-          "Prenses"
-        ],
-        "views": 1,
-        "content": [
-          "Bir zamanlar Keloğlan adında zeki bir delikanlı varmış. Annesiyle birlikte yaşıyorlarmış.",
-          "Bir gün padişah bir yarışma düzenlemiş: 'Kim Saç Saçan Dev'i yenerse kızımla evlenecek!' demiş.",
-          "Keloğlan yola koyulmuş. Ormanda bir ceviz ağacına rastlamış. Ağaç 'Beni kes, cevizlerimi al' demiş. Keloğlan öyle yapmış.",
-          "Biraz ilerde bir pınara rastlamış. Pınar 'Suyumu al, ihtiyacın olacak' demiş. Keloğlan tulumunu suyla doldurmuş.",
-          "Sonunda dev'in sarayına varmış. Dev ona sormuş: 'Sen mi beni yenmeye geliyorsun kel oğlan?' Keloğlan 'Evet' demiş.",
-          "Dev 'O zaman taş sıkma yarışması yapalım' demiş. Dev taşı sıkınca su damlamış. Keloğlan tulumu sıkınca su fışkırmış. Dev şaşırmış.",
-          "Sonra dev ceviz kırma yarışması teklif etmiş. Dev cevizi ağzında kırmış. Keloğlan da cevizi ağzında 'kırmış' (önceden topladığı ceviz içlerini göstermiş).",
-          "Dev korkmuş ve kaçmış. Keloğlan padişahın kızıyla evlenmiş ve mutlu yaşamışlar."
-        ],
-        "moral": "Zeka ve akıl, güçten daha önemlidir. Akıllı olmak her zaman kazandırır.",
-        "isAI": false
-      },
-      {
-        "id": 4,
-        "title": "Nasreddin Hoca ve Eşeği",
-        "category": "Türk Masalları",
-        "ageGroup": "6-8",
-        "icon": "🫏",
-        "summary": "Nasreddin Hoca, herkesin farklı yorumlarına karşı verdiği tepkiyle bir ders verir.",
-        "characters": [
-          "Nasreddin Hoca",
-          "Hoca'nın Oğlu",
-          "Eşek",
-          "Köylüler"
-        ],
-        "views": 0,
-        "content": [
-          "Bir gün Nasreddin Hoca, oğluyla birlikte eşeğini kasabaya götürüyormuş. İkisi de yürüyormuş, eşek boşmuş.",
-          "Yolda birisi görmüş, 'Bak şu akılsızlara, eşekleri var, yürüyorlar!' demiş. Hoca duymuş, oğlunu eşeğe bindirmiş.",
-          "Biraz ilerlediklerinde başka biri 'Ayıp! Genç oğlan biniyor, yaşlı adam yürüyor!' demiş. Hoca oğlunu indirmiş, kendisi binmiş.",
-          "Daha ileride bir başkası 'Vah vah! Adam biniyor, zavallı çocuk yürüyor!' demiş. Hoca düşünmüş, ikisi birden binmişler.",
-          "Kasaba girişinde insanlar 'Zavallı eşek! İki kişi binmiş, eşeğe yazık!' demişler.",
-          "Hoca inerek oğluna demiş ki: 'Oğlum, insanların hepsini memnun edemezsin. Sen doğru bildiğini yap.'",
-          "O günden sonra Nasreddin Hoca başkalarının dedikodularına aldırmadan kendi bildiği gibi yaşamış."
-        ],
-        "moral": "Herkesin sözünü dinleyemezsin. Doğru bildiğini yapmak önemlidir.",
-        "isAI": false
-      },
-      {
-        "id": 5,
-        "title": "Pamuk Prenses ve Yedi Cüceler",
-        "category": "Klasik Masallar",
-        "ageGroup": "6-8",
-        "icon": "🍎",
-        "summary": "Kötü üvey annesinden kaçan Pamuk Prenses, ormanda yedi cüceyle yaşar ve gerçek sevgiyi bulur.",
-        "characters": [
-          "Pamuk Prenses",
-          "Kötü Kraliçe",
-          "Yedi Cüceler",
-          "Prens",
-          "Sihirli Ayna"
-        ],
-        "views": 0,
-        "content": [
-          "Bir zamanlar çok güzel bir prenses varmış, adı Pamuk Prenses'miş. Teni kar gibi beyaz, dudakları gül gibi kırmızıymış.",
-          "Kötü üvey annesi her gün sihirli aynasına 'Ayna ayna söyle bana, kim var benden daha güzel?' diye sorarmış. Ayna hep 'Sen varsın kraliçem' dermiş.",
-          "Bir gün ayna 'Pamuk Prenses var, o daha güzel' demiş. Kraliçe çok kızmış ve avcıyı çağırmış: 'Onu ormana götür ve öldür!'",
-          "Avcı Pamuk Prenses'e acımış ve onu serbest bırakmış. Prenses ormanda yürürken küçük bir ev bulmuş. İçerde yedi cüce yaşıyormuş.",
-          "Cüceler Pamuk Prenses'i sevmişler ve onunla kalmış. Kraliçe aynadan öğrenince zehirli elma hazırlamış.",
-          "Yaşlı kadın kılığına giren kraliçe, Pamuk Prenses'e elma vermiş. Prenses ısırınca bayılmış. Cüceler cam bir tabuta koymuşlar.",
-          "Bir gün yakışıklı bir prens gelmiş. Pamuk Prenses'i görünce aşık olmuş ve öpmüş. Öpücükle büyü bozulmuş, Pamuk Prenses uyanmış.",
-          "Pamuk Prenses ve prens evlenmiş, mutlu yaşamışlar."
-        ],
-        "moral": "İyilik her zaman kazanır. Kötülük mutlaka cezasını bulur.",
-        "isAI": false
-      },
-      {
-        "id": 6,
-        "title": "Uyuyan Güzel",
-        "category": "Klasik Masallar",
-        "ageGroup": "6-8",
-        "icon": "💤",
-        "summary": "Bir lanet yüzünden yüz yıl uyuyan prenses, gerçek aşkın öpücüğüyle uyanır.",
-        "characters": [
-          "Prenses Aurora",
-          "Kötü Peri",
-          "İyi Periler",
-          "Prens",
-          "Kral ve Kraliçe"
-        ],
-        "views": 0,
-        "content": [
-          "Bir kraliyet ailesinin çok bekledikleri bir prensesleri olmuş. Büyük bir şölen düzenlemişler.",
-          "Krallıktaki on iki periden on birini davet etmişler. On ikincisini unutmuşlar. O peri çok kızmış.",
-          "İyi periler prensese güzellik, zeka, müzik gibi hediyeler vermişler. Kötü peri gelince 'On altı yaşında iğne batacak ve ölecek!' demiş.",
-          "Son peri büyüyü tam bozamasa da değiştirmiş: 'Ölmeyecek ama yüz yıl uyuyacak, prens öpünce uyanacak.'",
-          "Kral tüm iğneleri yasaklamış ama prenses on altı yaşında kuledeki eski iğneyi bulmuş. Elini batırınca tüm saray uyumuş.",
-          "Yüz yıl sonra yakışıklı bir prens, dikenlerle kaplı saraya gelmiş. Uyuyan prensesi bulmuş ve öpmüş.",
-          "Tüm saray uyanmış. Prenses ve prens evlenmiş, mutlu yaşamışlar."
-        ],
-        "moral": "Kader engellenemez ama sevgi her şeyi güzelleştirir.",
-        "isAI": false
-      },
-      {
-        "id": 7,
-        "title": "Altın Yumurtlayan Tavuk",
-        "category": "Fabl Masallar",
-        "ageGroup": "6-8",
-        "icon": "🐔",
-        "summary": "Açgözlü bir adam, daha fazla altın için değerli tavuğunu kaybeder.",
-        "characters": [
-          "Çiftçi",
-          "Çiftçinin Karısı",
-          "Altın Yumurtlayan Tavuk"
-        ],
-        "views": 0,
-        "content": [
-          "Bir zamanlar fakir bir çiftçi ve karısı varmış. Bir gün tavuklarından biri altın bir yumurta bırakmış.",
-          "Çiftçi ve karısı çok sevinmişler. Her gün tavuk bir altın yumurta bırakıyormuş. Zamanla zengin olmuşlar.",
-          "Ama adam açgözlü olmuş. Karısına demiş ki: 'Bu tavuğun içinde milyonlarca altın olmalı. Hepsini bir anda alalım!'",
-          "Karısı karşı çıkmış ama adam dinlememiş. Tavuğu kesmiş ama içinde hiçbir şey çıkmamış.",
-          "Şimdi ne tavukları var ne de altın yumurtalar. Tekrar fakirleşmişler.",
-          "Adam pişman olmuş: 'Sabrımızı kaybettik, açgözlü olduk ve her şeyimizi kaybettik' demiş."
-        ],
-        "moral": "Açgözlülük felakete yol açar. Elimizdekine şükretmeliyiz.",
-        "isAI": false
-      },
-      {
-        "id": 8,
-        "title": "Tilki ile Turna",
-        "category": "Fabl Masallar",
-        "ageGroup": "3-5",
-        "icon": "🦊",
-        "summary": "Tilki turnaya oyun oynar ama aynı oyunu kendisi de yaşar.",
-        "characters": [
-          "Tilki",
-          "Turna"
-        ],
-        "views": 0,
-        "content": [
-          "Bir tilki ile turna arkadaşmış. Bir gün tilki turnayı yemeğe davet etmiş.",
-          "Tilki yemeği düz bir tabağa koymuş. Kendisi rahatça yemiş ama turnanın uzun gagası tabaktan yemek yiyememiş. Turna aç kalmış.",
-          "Ertesi gün turna tilkiyi yemeğe davet etmiş. Yemeği uzun boyunlu bir testi içine koymuş.",
-          "Turna rahatça yemiş ama tilkinin kısa burnu testiye girememeiş. Tilki aç kalmış.",
-          "Tilki anlamış ve utanmış: 'Bana yaptığım muameleyi sen de bana yaptın' demiş.",
-          "O günden sonra tilki başkalarına iyi davranmaya başlamış."
-        ],
-        "moral": "Başkalarına nasıl davranırsanız, onlar da size öyle davranır.",
-        "isAI": false
-      },
-      {
-        "id": 9,
-        "title": "Karınca ile Ağustos Böceği",
-        "category": "Fabl Masallar",
-        "ageGroup": "6-8",
-        "icon": "🐜",
-        "summary": "Çalışkan karınca kışa hazırlanırken, tembel ağustos böceği şarkı söyler.",
-        "characters": [
-          "Karınca",
-          "Ağustos Böceği"
-        ],
-        "views": 0,
-        "content": [
-          "Yaz mevsiminde karınca durmadan çalışıyormuş. Kışa hazırlık için yiyecek topluyormuş.",
-          "Ağustos böceği ise gölgede oturup şarkı söylüyormuş. Karıncaya gülmüş: 'Neden bu kadar çalışıyorsun? Gel biraz eğlen!'",
-          "Karınca demiş ki: 'Kış gelecek, hazırlık yapmalıyım. Sen de yapmalısın.'",
-          "Ağustos böceği dinlememiş: 'Daha çok zaman var, sonra yaparım' demiş ve şarkı söylemeye devam etmiş.",
-          "Kış geldiğinde karıncanın yiyeceği çokmuş, evinde sıcak ve mutluymuş.",
-          "Ağustos böceği ise açmış, üşümüş. Karıncaya gelmiş: 'Lütfen bana biraz yiyecek ver' demiş.",
-          "Karınca 'Yazın şarkı söylerken ben çalıştım. Şimdi sen de kendi yaptığını gör' demiş.",
-          "Ağustos böceği dersini almış: 'Keşke seni dinleseydim' demiş."
-        ],
-        "moral": "Çalışkan olmak ve geleceği düşünmek önemlidir. Tembellik kötü sonuçlar doğurur.",
-        "isAI": false
-      },
-      {
-        "id": 10,
-        "title": "Aslan ile Fare",
-        "category": "Fabl Masallar",
-        "ageGroup": "3-5",
-        "icon": "🦁",
-        "summary": "Küçük bir fare, ormanın kralı aslanın hayatını kurtararak dostluğun gücünü kanıtlar.",
-        "characters": [
-          "Aslan",
-          "Fare",
-          "Avcılar"
-        ],
-        "views": 0,
-        "content": [
-          "Ormanın kralı aslan uyurken küçük bir fare burnunun üzerinden koşmuş. Aslan uyanmış ve fareyi yakalamış.",
-          "Fare yalvarmış: 'Lütfen beni bırak, bir gün sana yardım edebilirim!' Aslan gülmüş: 'Sen mi bana yardım edeceksin?' ama yine de fareyi bırakmış.",
-          "Bir gün avcılar aslanı ağ ile yakalamış. Aslan ne kadar uğraşsa da kurtulamamış ve kükremeye başlamış.",
-          "Kükremeyi duyan fare koşarak gelmiş. 'Merak etme, sana söz vermiştim' demiş.",
-          "Fare keskin dişleriyle ağı kemirmeye başlamış. Sonunda ağı kesmiş ve aslanı kurtarmış.",
-          "Aslan şaşırmış: 'Küçük olman önemli değilmiş, sen benim hayatımı kurtardın. Çok teşekkür ederim küçük dostum!' demiş.",
-          "O günden sonra aslan ile fare en iyi arkadaş olmuşlar."
-        ],
-        "moral": "Kimseyi küçümsemeyin. Her canlının değeri vardır ve herkes yardım edebilir.",
-        "isAI": false
-      },
-      {
-        "id": 11,
-        "title": "Açgözlü Köpek",
-        "category": "Fabl Masallar",
-        "ageGroup": "3-5",
-        "icon": "🐕",
-        "summary": "Açgözlü bir köpek, fazlasını isterken elindekini kaybeder.",
-        "characters": [
-          "Köpek",
-          "Kasap"
-        ],
-        "views": 0,
-        "content": [
-          "Bir köpek kasaptan büyük bir et çalmış ve kaçıyormuş.",
-          "Evine giderken bir köprüden geçiyormuş. Köprüden aşağı bakınca suda kendi yansımasını görmüş.",
-          "Ama köpek yansımasının başka bir köpek olduğunu sanmış. 'Bak o köpeğin de eti var, benimkinden daha büyük görünüyor!' diye düşünmüş.",
-          "Açgözlü köpek o eti de almak istemiş. Sudaki köpeğe havlamış: 'Hav hav!'",
-          "Ağzını açınca kendi eti suya düşmüş. Şimdi ne o et kalmış ne başka et.",
-          "Köpek üzgün bir şekilde eve dönmüş. Pişman olmuş: 'Açgözlü oldum ve her şeyimi kaybettim' demiş."
-        ],
-        "moral": "Elimizdekine şükretmeliyiz. Fazlasını isterken elimizdekileri kaybedebiliriz.",
-        "isAI": false
-      },
-      {
-        "id": 12,
-        "title": "Çirkin Ördek Yavrusu",
-        "category": "Klasik Masallar",
-        "ageGroup": "6-8",
-        "icon": "🦢",
-        "summary": "Farklı görünen bir yavru, zamanla güzel bir kuğuya dönüşerek gerçek kimliğini bulur.",
-        "characters": [
-          "Çirkin Ördek Yavrusu",
-          "Anne Ördek",
-          "Ördek Kardeşler",
-          "Kuğular",
-          "Çiftlik Hayvanları"
-        ],
-        "views": 0,
-        "content": [
-          "Bahar günü bir ördek yumurtalarını bekliyormuş. Yumurtalar tek tek çatlamış ama bir tanesi çok büyükmüş.",
-          "Sonunda o da çatlamış, içinden garip görünüşlü bir yavru çıkmış. Diğer yavrulardan çok farklıymış.",
-          "Çiftlikteki tüm hayvanlar ona gülmüşler. 'Ne kadar çirkin!' demişler. Kardeşleri bile onu dışlamışlar.",
-          "Zavallı yavru çok üzülmüş ve çiftlikten kaçmış. Ormanda, göllerde dolaşmış. Herkes ona kötü davranmış.",
-          "Kış gelmiş, yavru çok zorlanmış. Ama bahar geldiğinde göle gitmiş. Suda üç güzel kuğu görmüş.",
-          "Suda kendi yansımasına baktığında şok olmuş. O da güzel bir kuğu olmuş! Hiç çirkin ördek yavrusu değilmiş, kuğu yavrususmuş.",
-          "Diğer kuğular onu sevgiyle karşılamışlar. Artık mutluymuş. 'Çirkin olduğum için üzülmüştüm ama şimdi anlıyorum ki farklı olmak kötü değilmiş' diye düşünmüş."
-        ],
-        "moral": "Her canlının kendi güzelliği vardır. Sabırlı olmalı ve kendimizi olduğumuz gibi sevmeliyiz.",
-        "isAI": false
-      },
-      {
-        "id": 13,
-        "title": "Kurbağa Prens",
-        "category": "Klasik Masallar",
-        "ageGroup": "6-8",
-        "icon": "🐸",
-        "summary": "Bir prensesin verdiği söz ve samimi sevgisi, büyülü bir kurbağayı prense dönüştürür.",
-        "characters": [
-          "Prenses",
-          "Kurbağa Prens",
-          "Kral",
-          "Cadı"
-        ],
-        "views": 0,
-        "content": [
-          "Bir prenses sarayın bahçesinde altın top ile oynuyormuş. Top kuyuya düşmüş, prenses çok üzülmüş.",
-          "Bir kurbağa çıkmış: 'Topu getiririm ama üç gün yanımda kalman, soframda yemek yemen ve yatağımda uyuman gerek' demiş.",
-          "Prenses kabul etmiş ama içinden 'Nasılsa tutmam' diye düşünmüş. Kurbağa topu getirmiş.",
-          "Akşam kurbağa saraya gelmiş. Kral prensesin sözünü tutmasını istemiş. Prenses mecburen kabul etmiş.",
-          "Üç gün boyunca kurbağa ile yemek yemiş, beraber uyumuş. Çok tiksinmiş ama sabrıyla dayanmış.",
-          "Üçüncü gece kurbağa demiş ki: 'Beni öper misin?' Prenses gözlerini kapatıp öpmüş.",
-          "Bir anda kurbağa yakışıklı bir prense dönüşmüş! 'Kötü bir cadı beni kurbağaya çevirmişti. Ancak bir prensesin samimi sevgisi büyüyü bozabilirdi' demiş.",
-          "Prenses ve prens evlenmişler, mutlu yaşamışlar."
-        ],
-        "moral": "Verilen sözün tutulması önemlidir. Dış görünüş değil, içten sevgi önemlidir.",
-        "isAI": false
-      },
-      {
-        "id": 14,
-        "title": "Ali Baba ve Kırk Haramiler",
-        "category": "Doğu Masalları",
-        "ageGroup": "9-12",
-        "icon": "🗝️",
-        "summary": "Fakir bir oduncu, sihirli bir mağara keşfeder ve zeki hizmetçisi sayesinde haramilerden kurtulur.",
-        "characters": [
-          "Ali Baba",
-          "Kasım",
-          "Mercan",
-          "Haramiler Reisi",
-          "Kırk Haramiler"
-        ],
-        "views": 0,
-        "content": [
-          "Bir zamanlar Ali Baba adında fakir ama dürüst bir oduncu yaşarmış.",
-          "Bir gün ormanda odun toplarken kırk haraminin gizli mağarasını bulmuş. 'Açıl susam açıl!' sözüyle mağara kapısı açılırmış.",
-          "Ali Baba haramiler gidince içeri girmiş. Mağara altın ve değerli taşlarla doluymuş. Biraz altın alıp evine dönmüş.",
-          "Zengin ağabeyi Kasım bunu öğrenince daha fazla altın almak için mağaraya gitmiş. Ama geri dönüş sözünü unutmuş, mağarada kalmış.",
-          "Haramiler Kasım'ı bulmuşlar. Ali Baba'yı bulmanın yollarını aramışlar.",
-          "Zeki hizmetçi Mercan, haramilerini tuzağını farketmiş ve Ali Baba'yı kurtarmış.",
-          "Ali Baba Mercan sayesinde kurtulmuş. Haramiler yakalanmış. Ali Baba zenginliğini dürüstçe kullanmış, fakirlere yardım etmiş."
-        ],
-        "moral": "Dürüstlük ve sadakat her şeyden değerlidir. Zeka ve dikkat hayat kurtarır.",
-        "isAI": false
-      },
-      {
-        "id": 15,
-        "title": "Pinokyo",
-        "category": "Klasik Masallar",
-        "ageGroup": "6-8",
-        "icon": "🤥",
-        "summary": "Ahşap kukla Pinokyo, maceralarla dolu bir yolculukta dürüstlüğü öğrenir ve gerçek bir çocuk olur.",
-        "characters": [
-          "Pinokyo",
-          "Geppetto",
-          "Mavi Peri",
-          "Jiminy Cricket",
-          "Dolandırıcılar"
-        ],
-        "views": 0,
-        "content": [
-          "Geppetto adında marangoz bir adam, yalnızlığını gidermek için tahtadan bir kukla yapmış. Ona Pinokyo ismini vermiş.",
-          "Bir peri gelmiş ve Pinokyo'ya hayat vermiş: 'İyi olursan gerçek bir çocuk olacaksın ama yalan söylersen burnun uzar' demiş.",
-          "Geppetto Pinokyo'yu okula göndermiş ama Pinokyo yolda iki dolandırıcıyla tanışmış. Onlar 'Gel seninle eğlenelim' demişler.",
-          "Pinokyo okulu asmış. Sirkte kukla olmuş, bir adada eşeğe dönüşmüş. Her yalan söylediğinde burnu uzamış.",
-          "Geppetto onu aramaya çıkmış ve denizdeki dev balina tarafından yutulmuş. Pinokyo bunu öğrenince babasını kurtarmaya gitmiş.",
-          "Dev balinanın karnında babasını bulmuş. Beraber kaçma planı yapmışlar ve kurtulmuşlar.",
-          "Pinokyo cesaretini ve sevgisini gösterince peri onu gerçek bir çocuğa dönüştürmüş. Artık yalan söylemeyen, cesur bir çocuk olmuş.",
-          "Geppetto ve Pinokyo mutlu mesut yaşamışlar."
-        ],
-        "moral": "Dürüstlük en önemli değerdir. Sevgi ve cesaret her şeyi aşar.",
-        "isAI": false
-      },
-      {
-        "id": 16,
-        "title": "Kralın Hatalı Kararı",
-        "category": "Klasik Masallar",
-        "ageGroup": "6-8",
-        "icon": "👑",
-        "summary": "Bir kral, krallığının refahı yerine kişisel çıkarlarını düşünür. Ancak, bu kararının sonuçlarını çok geç fark eder. Bu masal, hatalı kararların nasıl büyük sorunlara yol açabileceğini anlatıyor.",
-        "characters": [
-          "Kral",
-          "Bilge Danışman",
-          "Zengin Tüccar"
-        ],
-        "content": [
-          "Uzak bir ülkede, güzel bir krallık vardı. Bu krallığın kralı, çok zengindi ve lüks bir yaşam sürüyordu. Ancak, kralın bir kusuru vardı: her şeyi kendisi için düşünür, halkının çıkarlarını göz ardı ederdi.",
-          "Bir gün, kralın danışmanlarından biri, krala bir öneride bulundu. 'Majesteleri, krallığımızın refahı için yeni yollar ve köprüler inşa etmeliyiz. Ayrıca, halkımıza daha iyi eğitim ve sağlık hizmetleri sağlamalıyız.'",
-          "Ancak, kral bu önerilere karşı çıktı. 'Bunlar çok pahalı ve bana bir faydası yok.' dedi. Bunun yerine, kral tüm paranın kendi sarayını daha da büyütmek için harcanmasını emretti.",
-          "Kralın bu kararı, halk arasında büyük bir huzursuzluğa neden oldu. Yollar ve köprüler bozuktu, hastaneler yetersizdi ve okullar yeterli değildi. Halk, kralın bu hatalı kararlarından dolayı mutsuzdu.",
-          "Bir gün, bir zengin tüccar, kraldan krallığında ticaret yapma izni istedi. Kral, bu teklifi kabul etti, ancak tüccardan çok yüksek bir vergi talep etti. Tüccar, bu vergiyi ödeyemezdi ve krallıktan ayrılmak zorunda kaldı.",
-          "Tüccarın ayrılması, krallık için büyük bir kayıp oldu. Krallık, dış ticaretten elde ettiği gelirin önemli bir kısmını kaybetti. Halk, kralın bu kararının sonuçlarını çok geç fark etti.",
-          "Kralın danışmanları, krala durumun ciddiyetini anlattı. 'Majesteleri, krallığımız büyük bir ekonomik krizle karşı karşıya. Halkımız mutsuz ve isyan ediyor.'",
-          "Kral, finally, hatalarının farkına vardı. 'Ne yazık ki, çok geç kaldım.' dedi. 'Şimdi, krallığımı kurtarmak için ne yapabilirim?'",
-          "Danışmanları, krala bir öneride bulundular. 'Majesteleri, halkınıza karşı daha adil olun. Onların refahı için çalışın. Yollar, köprüler, eğitim ve sağlık hizmetleri için gereken parayı ayırın.'",
-          "Kral, sonunda danışmanlarının sözünü dinledi. Krallığında büyük değişiklikler yaptı. Halkı, daha iyi bir yaşam sürdürebilsin diye her şeyi yaptı. Ve sonunda, kralın krallığı tekrar refah içinde yaşadı."
-        ],
-        "moral": "Hatalı kararlar, büyük sorunlara yol açabilir. Ancak, pişmanlık duymak ve durumu düzeltmeye çalışmak, her zaman mogelijk.",
-        "views": 0,
-        "isAI": true
-      }
-    ]
-  }
+  "stories": [
+    {
+      "id": 1,
+      "title": "Kırmızı Başlıklı Kız",
+      "category": "Klasik Masallar",
+      "ageGroup": "6-8",
+      "icon": "🧺",
+      "summary": "Kırmızı başlıklı bir kız, hasta büyükannesine sepet götürürken kurnaz bir kurtla karşılaşır.",
+      "characters": [
+        "Kırmızı Başlıklı Kız",
+        "Kurt",
+        "Büyükanne",
+        "Anne",
+        "Oduncu"
+      ],
+      "views": 1,
+      "content": [
+        "Bir zamanlar küçük bir köyde, herkesin Kırmızı Başlıklı Kız diye çağırdığı sevimli bir kız yaşıyordu. Büyükannesi ona kırmızı bir başlık hediye etmişti ve kız onu çok seviyordu.",
+        "Bir gün annesi ona dedi ki: 'Kırmızı Başlıklı Kız, büyükannen hasta. Ona bu sepeti götür ama sakın yoldan ayrılma ve kimseyle konuşma!'",
+        "Kırmızı Başlıklı Kız sepeti aldı ve yola koyuldu. Ormanda yürürken bir kurda rastladı. Kurt ona nereye gittiğini sordu. Kız unutup büyükannesine gittiğini söyledi.",
+        "Kurt hızla büyükannesinin evine gitti, büyükanneyi dolaba sakladı ve onun yerine yatağa yattı. Kırmızı Başlıklı Kız gelince, 'Büyükanne, kulakların ne kadar büyük!' dedi.",
+        "'Seni daha iyi duymak için yavrucuğum,' dedi kurt. 'Gözlerin ne kadar büyük!' 'Seni daha iyi görmek için!' 'Dişlerin ne kadar büyük!' 'Seni daha iyi yemek için!'",
+        "Tam o sırada oradan geçen bir oduncu sesleri duydu ve içeri koştu. Kurdu korkutup kaçırdı ve büyükanneyi dolabtan kurtardı.",
+        "Kırmızı Başlıklı Kız o günden sonra annesinin sözünü dinledi ve yabancılarla konuşmadı."
+      ],
+      "moral": "Büyüklerin sözünü dinlemek ve yabancılarla konuşmamak önemlidir.",
+      "isAI": false
+    },
+    {
+      "id": 2,
+      "title": "Üç Küçük Domuz",
+      "category": "Klasik Masallar",
+      "ageGroup": "3-5",
+      "icon": "🏠",
+      "summary": "Üç domuz kardeş evlerini yaparken farklı malzemeler kullanır. Kötü kurt geldiğinde hangisinin evi dayanıklıdır?",
+      "characters": [
+        "İlk Domuz",
+        "İkinci Domuz",
+        "Üçüncü Domuz",
+        "Kötü Kurt"
+      ],
+      "views": 1,
+      "content": [
+        "Bir zamanlar üç küçük domuz kardeş varmış. Büyüyünce evlerinden ayrılıp kendi evlerini yapmaya karar vermişler.",
+        "İlk domuz tembel bir domuzmuş. Samanlardan bir ev yapmış. Çok hızlı bitirmiş ama ev çok zayıfmış.",
+        "İkinci domuz odun dallarından bir ev yapmış. O da çok uzun sürmemiş ama yine de sağlam değilmiş.",
+        "Üçüncü domuz çok çalışkanmış. Tuğlalardan sağlam bir ev yapmış. Aylar sürmüş ama çok sağlammış.",
+        "Bir gün kötü bir kurt gelmiş. İlk domuzun evine 'Üfleyeceğim, püfleyeceğim, evinizi yıkacağım!' demiş. Üflemiş püflemiş, saman ev yıkılmış. Domuz ikinci domuzun evine kaçmış.",
+        "Kurt ikinci eve de gelmiş. Yine üflemiş püflemiş, tahta ev de yıkılmış. İki domuz üçüncü domuzun evine kaçmışlar.",
+        "Kurt tuğla eve gelmiş. Ne kadar üflese de püflese de ev yıkılmamış. Sonunda kurt bacadan girmeye çalışmış ama domuzlar ocakta büyük bir tencere kaynayan su hazırlamışlar. Kurt düşüp kaçmış.",
+        "Üç domuz kardeş tuğla evde mutlu mesut yaşamışlar."
+      ],
+      "moral": "Çalışkanlık ve sabır her zaman kazandırır. İşi doğru yapmak önemlidir.",
+      "isAI": false
+    },
+    {
+      "id": 3,
+      "title": "Keloğlan ve Saç Saçan",
+      "category": "Türk Masalları",
+      "ageGroup": "6-8",
+      "icon": "🧙",
+      "summary": "Zeki Keloğlan, güçlü Saç Saçan Dev'i akıllıca planlarıyla yenerek prensesle evlenir.",
+      "characters": [
+        "Keloğlan",
+        "Saç Saçan Dev",
+        "Padişah",
+        "Prenses"
+      ],
+      "views": 1,
+      "content": [
+        "Bir zamanlar Keloğlan adında zeki bir delikanlı varmış. Annesiyle birlikte yaşıyorlarmış.",
+        "Bir gün padişah bir yarışma düzenlemiş: 'Kim Saç Saçan Dev'i yenerse kızımla evlenecek!' demiş.",
+        "Keloğlan yola koyulmuş. Ormanda bir ceviz ağacına rastlamış. Ağaç 'Beni kes, cevizlerimi al' demiş. Keloğlan öyle yapmış.",
+        "Biraz ilerde bir pınara rastlamış. Pınar 'Suyumu al, ihtiyacın olacak' demiş. Keloğlan tulumunu suyla doldurmuş.",
+        "Sonunda dev'in sarayına varmış. Dev ona sormuş: 'Sen mi beni yenmeye geliyorsun kel oğlan?' Keloğlan 'Evet' demiş.",
+        "Dev 'O zaman taş sıkma yarışması yapalım' demiş. Dev taşı sıkınca su damlamış. Keloğlan tulumu sıkınca su fışkırmış. Dev şaşırmış.",
+        "Sonra dev ceviz kırma yarışması teklif etmiş. Dev cevizi ağzında kırmış. Keloğlan da cevizi ağzında 'kırmış' (önceden topladığı ceviz içlerini göstermiş).",
+        "Dev korkmuş ve kaçmış. Keloğlan padişahın kızıyla evlenmiş ve mutlu yaşamışlar."
+      ],
+      "moral": "Zeka ve akıl, güçten daha önemlidir. Akıllı olmak her zaman kazandırır.",
+      "isAI": false
+    },
+    {
+      "id": 4,
+      "title": "Nasreddin Hoca ve Eşeği",
+      "category": "Türk Masalları",
+      "ageGroup": "6-8",
+      "icon": "🫏",
+      "summary": "Nasreddin Hoca, herkesin farklı yorumlarına karşı verdiği tepkiyle bir ders verir.",
+      "characters": [
+        "Nasreddin Hoca",
+        "Hoca'nın Oğlu",
+        "Eşek",
+        "Köylüler"
+      ],
+      "views": 0,
+      "content": [
+        "Bir gün Nasreddin Hoca, oğluyla birlikte eşeğini kasabaya götürüyormuş. İkisi de yürüyormuş, eşek boşmuş.",
+        "Yolda birisi görmüş, 'Bak şu akılsızlara, eşekleri var, yürüyorlar!' demiş. Hoca duymuş, oğlunu eşeğe bindirmiş.",
+        "Biraz ilerlediklerinde başka biri 'Ayıp! Genç oğlan biniyor, yaşlı adam yürüyor!' demiş. Hoca oğlunu indirmiş, kendisi binmiş.",
+        "Daha ileride bir başkası 'Vah vah! Adam biniyor, zavallı çocuk yürüyor!' demiş. Hoca düşünmüş, ikisi birden binmişler.",
+        "Kasaba girişinde insanlar 'Zavallı eşek! İki kişi binmiş, eşeğe yazık!' demişler.",
+        "Hoca inerek oğluna demiş ki: 'Oğlum, insanların hepsini memnun edemezsin. Sen doğru bildiğini yap.'",
+        "O günden sonra Nasreddin Hoca başkalarının dedikodularına aldırmadan kendi bildiği gibi yaşamış."
+      ],
+      "moral": "Herkesin sözünü dinleyemezsin. Doğru bildiğini yapmak önemlidir.",
+      "isAI": false
+    },
+    {
+      "id": 5,
+      "title": "Pamuk Prenses ve Yedi Cüceler",
+      "category": "Klasik Masallar",
+      "ageGroup": "6-8",
+      "icon": "🍎",
+      "summary": "Kötü üvey annesinden kaçan Pamuk Prenses, ormanda yedi cüceyle yaşar ve gerçek sevgiyi bulur.",
+      "characters": [
+        "Pamuk Prenses",
+        "Kötü Kraliçe",
+        "Yedi Cüceler",
+        "Prens",
+        "Sihirli Ayna"
+      ],
+      "views": 0,
+      "content": [
+        "Bir zamanlar çok güzel bir prenses varmış, adı Pamuk Prenses'miş. Teni kar gibi beyaz, dudakları gül gibi kırmızıymış.",
+        "Kötü üvey annesi her gün sihirli aynasına 'Ayna ayna söyle bana, kim var benden daha güzel?' diye sorarmış. Ayna hep 'Sen varsın kraliçem' dermiş.",
+        "Bir gün ayna 'Pamuk Prenses var, o daha güzel' demiş. Kraliçe çok kızmış ve avcıyı çağırmış: 'Onu ormana götür ve öldür!'",
+        "Avcı Pamuk Prenses'e acımış ve onu serbest bırakmış. Prenses ormanda yürürken küçük bir ev bulmuş. İçerde yedi cüce yaşıyormuş.",
+        "Cüceler Pamuk Prenses'i sevmişler ve onunla kalmış. Kraliçe aynadan öğrenince zehirli elma hazırlamış.",
+        "Yaşlı kadın kılığına giren kraliçe, Pamuk Prenses'e elma vermiş. Prenses ısırınca bayılmış. Cüceler cam bir tabuta koymuşlar.",
+        "Bir gün yakışıklı bir prens gelmiş. Pamuk Prenses'i görünce aşık olmuş ve öpmüş. Öpücükle büyü bozulmuş, Pamuk Prenses uyanmış.",
+        "Pamuk Prenses ve prens evlenmiş, mutlu yaşamışlar."
+      ],
+      "moral": "İyilik her zaman kazanır. Kötülük mutlaka cezasını bulur.",
+      "isAI": false
+    },
+    {
+      "id": 6,
+      "title": "Uyuyan Güzel",
+      "category": "Klasik Masallar",
+      "ageGroup": "6-8",
+      "icon": "💤",
+      "summary": "Bir lanet yüzünden yüz yıl uyuyan prenses, gerçek aşkın öpücüğüyle uyanır.",
+      "characters": [
+        "Prenses Aurora",
+        "Kötü Peri",
+        "İyi Periler",
+        "Prens",
+        "Kral ve Kraliçe"
+      ],
+      "views": 0,
+      "content": [
+        "Bir kraliyet ailesinin çok bekledikleri bir prensesleri olmuş. Büyük bir şölen düzenlemişler.",
+        "Krallıktaki on iki periden on birini davet etmişler. On ikincisini unutmuşlar. O peri çok kızmış.",
+        "İyi periler prensese güzellik, zeka, müzik gibi hediyeler vermişler. Kötü peri gelince 'On altı yaşında iğne batacak ve ölecek!' demiş.",
+        "Son peri büyüyü tam bozamasa da değiştirmiş: 'Ölmeyecek ama yüz yıl uyuyacak, prens öpünce uyanacak.'",
+        "Kral tüm iğneleri yasaklamış ama prenses on altı yaşında kuledeki eski iğneyi bulmuş. Elini batırınca tüm saray uyumuş.",
+        "Yüz yıl sonra yakışıklı bir prens, dikenlerle kaplı saraya gelmiş. Uyuyan prensesi bulmuş ve öpmüş.",
+        "Tüm saray uyanmış. Prenses ve prens evlenmiş, mutlu yaşamışlar."
+      ],
+      "moral": "Kader engellenemez ama sevgi her şeyi güzelleştirir.",
+      "isAI": false
+    },
+    {
+      "id": 7,
+      "title": "Altın Yumurtlayan Tavuk",
+      "category": "Fabl Masallar",
+      "ageGroup": "6-8",
+      "icon": "🐔",
+      "summary": "Açgözlü bir adam, daha fazla altın için değerli tavuğunu kaybeder.",
+      "characters": [
+        "Çiftçi",
+        "Çiftçinin Karısı",
+        "Altın Yumurtlayan Tavuk"
+      ],
+      "views": 0,
+      "content": [
+        "Bir zamanlar fakir bir çiftçi ve karısı varmış. Bir gün tavuklarından biri altın bir yumurta bırakmış.",
+        "Çiftçi ve karısı çok sevinmişler. Her gün tavuk bir altın yumurta bırakıyormuş. Zamanla zengin olmuşlar.",
+        "Ama adam açgözlü olmuş. Karısına demiş ki: 'Bu tavuğun içinde milyonlarca altın olmalı. Hepsini bir anda alalım!'",
+        "Karısı karşı çıkmış ama adam dinlememiş. Tavuğu kesmiş ama içinde hiçbir şey çıkmamış.",
+        "Şimdi ne tavukları var ne de altın yumurtalar. Tekrar fakirleşmişler.",
+        "Adam pişman olmuş: 'Sabrımızı kaybettik, açgözlü olduk ve her şeyimizi kaybettik' demiş."
+      ],
+      "moral": "Açgözlülük felakete yol açar. Elimizdekine şükretmeliyiz.",
+      "isAI": false
+    },
+    {
+      "id": 8,
+      "title": "Tilki ile Turna",
+      "category": "Fabl Masallar",
+      "ageGroup": "3-5",
+      "icon": "🦊",
+      "summary": "Tilki turnaya oyun oynar ama aynı oyunu kendisi de yaşar.",
+      "characters": [
+        "Tilki",
+        "Turna"
+      ],
+      "views": 0,
+      "content": [
+        "Bir tilki ile turna arkadaşmış. Bir gün tilki turnayı yemeğe davet etmiş.",
+        "Tilki yemeği düz bir tabağa koymuş. Kendisi rahatça yemiş ama turnanın uzun gagası tabaktan yemek yiyememiş. Turna aç kalmış.",
+        "Ertesi gün turna tilkiyi yemeğe davet etmiş. Yemeği uzun boyunlu bir testi içine koymuş.",
+        "Turna rahatça yemiş ama tilkinin kısa burnu testiye girememeiş. Tilki aç kalmış.",
+        "Tilki anlamış ve utanmış: 'Bana yaptığım muameleyi sen de bana yaptın' demiş.",
+        "O günden sonra tilki başkalarına iyi davranmaya başlamış."
+      ],
+      "moral": "Başkalarına nasıl davranırsanız, onlar da size öyle davranır.",
+      "isAI": false
+    },
+    {
+      "id": 9,
+      "title": "Karınca ile Ağustos Böceği",
+      "category": "Fabl Masallar",
+      "ageGroup": "6-8",
+      "icon": "🐜",
+      "summary": "Çalışkan karınca kışa hazırlanırken, tembel ağustos böceği şarkı söyler.",
+      "characters": [
+        "Karınca",
+        "Ağustos Böceği"
+      ],
+      "views": 0,
+      "content": [
+        "Yaz mevsiminde karınca durmadan çalışıyormuş. Kışa hazırlık için yiyecek topluyormuş.",
+        "Ağustos böceği ise gölgede oturup şarkı söylüyormuş. Karıncaya gülmüş: 'Neden bu kadar çalışıyorsun? Gel biraz eğlen!'",
+        "Karınca demiş ki: 'Kış gelecek, hazırlık yapmalıyım. Sen de yapmalısın.'",
+        "Ağustos böceği dinlememiş: 'Daha çok zaman var, sonra yaparım' demiş ve şarkı söylemeye devam etmiş.",
+        "Kış geldiğinde karıncanın yiyeceği çokmuş, evinde sıcak ve mutluymuş.",
+        "Ağustos böceği ise açmış, üşümüş. Karıncaya gelmiş: 'Lütfen bana biraz yiyecek ver' demiş.",
+        "Karınca 'Yazın şarkı söylerken ben çalıştım. Şimdi sen de kendi yaptığını gör' demiş.",
+        "Ağustos böceği dersini almış: 'Keşke seni dinleseydim' demiş."
+      ],
+      "moral": "Çalışkan olmak ve geleceği düşünmek önemlidir. Tembellik kötü sonuçlar doğurur.",
+      "isAI": false
+    },
+    {
+      "id": 10,
+      "title": "Aslan ile Fare",
+      "category": "Fabl Masallar",
+      "ageGroup": "3-5",
+      "icon": "🦁",
+      "summary": "Küçük bir fare, ormanın kralı aslanın hayatını kurtararak dostluğun gücünü kanıtlar.",
+      "characters": [
+        "Aslan",
+        "Fare",
+        "Avcılar"
+      ],
+      "views": 0,
+      "content": [
+        "Ormanın kralı aslan uyurken küçük bir fare burnunun üzerinden koşmuş. Aslan uyanmış ve fareyi yakalamış.",
+        "Fare yalvarmış: 'Lütfen beni bırak, bir gün sana yardım edebilirim!' Aslan gülmüş: 'Sen mi bana yardım edeceksin?' ama yine de fareyi bırakmış.",
+        "Bir gün avcılar aslanı ağ ile yakalamış. Aslan ne kadar uğraşsa da kurtulamamış ve kükremeye başlamış.",
+        "Kükremeyi duyan fare koşarak gelmiş. 'Merak etme, sana söz vermiştim' demiş.",
+        "Fare keskin dişleriyle ağı kemirmeye başlamış. Sonunda ağı kesmiş ve aslanı kurtarmış.",
+        "Aslan şaşırmış: 'Küçük olman önemli değilmiş, sen benim hayatımı kurtardın. Çok teşekkür ederim küçük dostum!' demiş.",
+        "O günden sonra aslan ile fare en iyi arkadaş olmuşlar."
+      ],
+      "moral": "Kimseyi küçümsemeyin. Her canlının değeri vardır ve herkes yardım edebilir.",
+      "isAI": false
+    },
+    {
+      "id": 11,
+      "title": "Açgözlü Köpek",
+      "category": "Fabl Masallar",
+      "ageGroup": "3-5",
+      "icon": "🐕",
+      "summary": "Açgözlü bir köpek, fazlasını isterken elindekini kaybeder.",
+      "characters": [
+        "Köpek",
+        "Kasap"
+      ],
+      "views": 0,
+      "content": [
+        "Bir köpek kasaptan büyük bir et çalmış ve kaçıyormuş.",
+        "Evine giderken bir köprüden geçiyormuş. Köprüden aşağı bakınca suda kendi yansımasını görmüş.",
+        "Ama köpek yansımasının başka bir köpek olduğunu sanmış. 'Bak o köpeğin de eti var, benimkinden daha büyük görünüyor!' diye düşünmüş.",
+        "Açgözlü köpek o eti de almak istemiş. Sudaki köpeğe havlamış: 'Hav hav!'",
+        "Ağzını açınca kendi eti suya düşmüş. Şimdi ne o et kalmış ne başka et.",
+        "Köpek üzgün bir şekilde eve dönmüş. Pişman olmuş: 'Açgözlü oldum ve her şeyimi kaybettim' demiş."
+      ],
+      "moral": "Elimizdekine şükretmeliyiz. Fazlasını isterken elimizdekileri kaybedebiliriz.",
+      "isAI": false
+    },
+    {
+      "id": 12,
+      "title": "Çirkin Ördek Yavrusu",
+      "category": "Klasik Masallar",
+      "ageGroup": "6-8",
+      "icon": "🦢",
+      "summary": "Farklı görünen bir yavru, zamanla güzel bir kuğuya dönüşerek gerçek kimliğini bulur.",
+      "characters": [
+        "Çirkin Ördek Yavrusu",
+        "Anne Ördek",
+        "Ördek Kardeşler",
+        "Kuğular",
+        "Çiftlik Hayvanları"
+      ],
+      "views": 0,
+      "content": [
+        "Bahar günü bir ördek yumurtalarını bekliyormuş. Yumurtalar tek tek çatlamış ama bir tanesi çok büyükmüş.",
+        "Sonunda o da çatlamış, içinden garip görünüşlü bir yavru çıkmış. Diğer yavrulardan çok farklıymış.",
+        "Çiftlikteki tüm hayvanlar ona gülmüşler. 'Ne kadar çirkin!' demişler. Kardeşleri bile onu dışlamışlar.",
+        "Zavallı yavru çok üzülmüş ve çiftlikten kaçmış. Ormanda, göllerde dolaşmış. Herkes ona kötü davranmış.",
+        "Kış gelmiş, yavru çok zorlanmış. Ama bahar geldiğinde göle gitmiş. Suda üç güzel kuğu görmüş.",
+        "Suda kendi yansımasına baktığında şok olmuş. O da güzel bir kuğu olmuş! Hiç çirkin ördek yavrusu değilmiş, kuğu yavrususmuş.",
+        "Diğer kuğular onu sevgiyle karşılamışlar. Artık mutluymuş. 'Çirkin olduğum için üzülmüştüm ama şimdi anlıyorum ki farklı olmak kötü değilmiş' diye düşünmüş."
+      ],
+      "moral": "Her canlının kendi güzelliği vardır. Sabırlı olmalı ve kendimizi olduğumuz gibi sevmeliyiz.",
+      "isAI": false
+    },
+    {
+      "id": 13,
+      "title": "Kurbağa Prens",
+      "category": "Klasik Masallar",
+      "ageGroup": "6-8",
+      "icon": "🐸",
+      "summary": "Bir prensesin verdiği söz ve samimi sevgisi, büyülü bir kurbağayı prense dönüştürür.",
+      "characters": [
+        "Prenses",
+        "Kurbağa Prens",
+        "Kral",
+        "Cadı"
+      ],
+      "views": 0,
+      "content": [
+        "Bir prenses sarayın bahçesinde altın top ile oynuyormuş. Top kuyuya düşmüş, prenses çok üzülmüş.",
+        "Bir kurbağa çıkmış: 'Topu getiririm ama üç gün yanımda kalman, soframda yemek yemen ve yatağımda uyuman gerek' demiş.",
+        "Prenses kabul etmiş ama içinden 'Nasılsa tutmam' diye düşünmüş. Kurbağa topu getirmiş.",
+        "Akşam kurbağa saraya gelmiş. Kral prensesin sözünü tutmasını istemiş. Prenses mecburen kabul etmiş.",
+        "Üç gün boyunca kurbağa ile yemek yemiş, beraber uyumuş. Çok tiksinmiş ama sabrıyla dayanmış.",
+        "Üçüncü gece kurbağa demiş ki: 'Beni öper misin?' Prenses gözlerini kapatıp öpmüş.",
+        "Bir anda kurbağa yakışıklı bir prense dönüşmüş! 'Kötü bir cadı beni kurbağaya çevirmişti. Ancak bir prensesin samimi sevgisi büyüyü bozabilirdi' demiş.",
+        "Prenses ve prens evlenmişler, mutlu yaşamışlar."
+      ],
+      "moral": "Verilen sözün tutulması önemlidir. Dış görünüş değil, içten sevgi önemlidir.",
+      "isAI": false
+    },
+    {
+      "id": 14,
+      "title": "Ali Baba ve Kırk Haramiler",
+      "category": "Doğu Masalları",
+      "ageGroup": "9-12",
+      "icon": "🗝️",
+      "summary": "Fakir bir oduncu, sihirli bir mağara keşfeder ve zeki hizmetçisi sayesinde haramilerden kurtulur.",
+      "characters": [
+        "Ali Baba",
+        "Kasım",
+        "Mercan",
+        "Haramiler Reisi",
+        "Kırk Haramiler"
+      ],
+      "views": 0,
+      "content": [
+        "Bir zamanlar Ali Baba adında fakir ama dürüst bir oduncu yaşarmış.",
+        "Bir gün ormanda odun toplarken kırk haraminin gizli mağarasını bulmuş. 'Açıl susam açıl!' sözüyle mağara kapısı açılırmış.",
+        "Ali Baba haramiler gidince içeri girmiş. Mağara altın ve değerli taşlarla doluymuş. Biraz altın alıp evine dönmüş.",
+        "Zengin ağabeyi Kasım bunu öğrenince daha fazla altın almak için mağaraya gitmiş. Ama geri dönüş sözünü unutmuş, mağarada kalmış.",
+        "Haramiler Kasım'ı bulmuşlar. Ali Baba'yı bulmanın yollarını aramışlar.",
+        "Zeki hizmetçi Mercan, haramilerini tuzağını farketmiş ve Ali Baba'yı kurtarmış.",
+        "Ali Baba Mercan sayesinde kurtulmuş. Haramiler yakalanmış. Ali Baba zenginliğini dürüstçe kullanmış, fakirlere yardım etmiş."
+      ],
+      "moral": "Dürüstlük ve sadakat her şeyden değerlidir. Zeka ve dikkat hayat kurtarır.",
+      "isAI": false
+    },
+    {
+      "id": 15,
+      "title": "Pinokyo",
+      "category": "Klasik Masallar",
+      "ageGroup": "6-8",
+      "icon": "🤥",
+      "summary": "Ahşap kukla Pinokyo, maceralarla dolu bir yolculukta dürüstlüğü öğrenir ve gerçek bir çocuk olur.",
+      "characters": [
+        "Pinokyo",
+        "Geppetto",
+        "Mavi Peri",
+        "Jiminy Cricket",
+        "Dolandırıcılar"
+      ],
+      "views": 0,
+      "content": [
+        "Geppetto adında marangoz bir adam, yalnızlığını gidermek için tahtadan bir kukla yapmış. Ona Pinokyo ismini vermiş.",
+        "Bir peri gelmiş ve Pinokyo'ya hayat vermiş: 'İyi olursan gerçek bir çocuk olacaksın ama yalan söylersen burnun uzar' demiş.",
+        "Geppetto Pinokyo'yu okula göndermiş ama Pinokyo yolda iki dolandırıcıyla tanışmış. Onlar 'Gel seninle eğlenelim' demişler.",
+        "Pinokyo okulu asmış. Sirkte kukla olmuş, bir adada eşeğe dönüşmüş. Her yalan söylediğinde burnu uzamış.",
+        "Geppetto onu aramaya çıkmış ve denizdeki dev balina tarafından yutulmuş. Pinokyo bunu öğrenince babasını kurtarmaya gitmiş.",
+        "Dev balinanın karnında babasını bulmuş. Beraber kaçma planı yapmışlar ve kurtulmuşlar.",
+        "Pinokyo cesaretini ve sevgisini gösterince peri onu gerçek bir çocuğa dönüştürmüş. Artık yalan söylemeyen, cesur bir çocuk olmuş.",
+        "Geppetto ve Pinokyo mutlu mesut yaşamışlar."
+      ],
+      "moral": "Dürüstlük en önemli değerdir. Sevgi ve cesaret her şeyi aşar.",
+      "isAI": false
+    },
+    {
+      "id": 16,
+      "title": "Kralın Hatalı Kararı",
+      "category": "Klasik Masallar",
+      "ageGroup": "6-8",
+      "icon": "👑",
+      "summary": "Bir kral, krallığının refahı yerine kişisel çıkarlarını düşünür. Ancak, bu kararının sonuçlarını çok geç fark eder. Bu masal, hatalı kararların nasıl büyük sorunlara yol açabileceğini anlatıyor.",
+      "characters": [
+        "Kral",
+        "Bilge Danışman",
+        "Zengin Tüccar"
+      ],
+      "content": [
+        "Uzak bir ülkede, güzel bir krallık vardı. Bu krallığın kralı, çok zengindi ve lüks bir yaşam sürüyordu. Ancak, kralın bir kusuru vardı: her şeyi kendisi için düşünür, halkının çıkarlarını göz ardı ederdi.",
+        "Bir gün, kralın danışmanlarından biri, krala bir öneride bulundu. 'Majesteleri, krallığımızın refahı için yeni yollar ve köprüler inşa etmeliyiz. Ayrıca, halkımıza daha iyi eğitim ve sağlık hizmetleri sağlamalıyız.'",
+        "Ancak, kral bu önerilere karşı çıktı. 'Bunlar çok pahalı ve bana bir faydası yok.' dedi. Bunun yerine, kral tüm paranın kendi sarayını daha da büyütmek için harcanmasını emretti.",
+        "Kralın bu kararı, halk arasında büyük bir huzursuzluğa neden oldu. Yollar ve köprüler bozuktu, hastaneler yetersizdi ve okullar yeterli değildi. Halk, kralın bu hatalı kararlarından dolayı mutsuzdu.",
+        "Bir gün, bir zengin tüccar, kraldan krallığında ticaret yapma izni istedi. Kral, bu teklifi kabul etti, ancak tüccardan çok yüksek bir vergi talep etti. Tüccar, bu vergiyi ödeyemezdi ve krallıktan ayrılmak zorunda kaldı.",
+        "Tüccarın ayrılması, krallık için büyük bir kayıp oldu. Krallık, dış ticaretten elde ettiği gelirin önemli bir kısmını kaybetti. Halk, kralın bu kararının sonuçlarını çok geç fark etti.",
+        "Kralın danışmanları, krala durumun ciddiyetini anlattı. 'Majesteleri, krallığımız büyük bir ekonomik krizle karşı karşıya. Halkımız mutsuz ve isyan ediyor.'",
+        "Kral, finally, hatalarının farkına vardı. 'Ne yazık ki, çok geç kaldım.' dedi. 'Şimdi, krallığımı kurtarmak için ne yapabilirim?'",
+        "Danışmanları, krala bir öneride bulundular. 'Majesteleri, halkınıza karşı daha adil olun. Onların refahı için çalışın. Yollar, köprüler, eğitim ve sağlık hizmetleri için gereken parayı ayırın.'",
+        "Kral, sonunda danışmanlarının sözünü dinledi. Krallığında büyük değişiklikler yaptı. Halkı, daha iyi bir yaşam sürdürebilsin diye her şeyi yaptı. Ve sonunda, kralın krallığı tekrar refah içinde yaşadı."
+      ],
+      "moral": "Hatalı kararlar, büyük sorunlara yol açabilir. Ancak, pişmanlık duymak ve durumu düzeltmeye çalışmak, her zaman mogelijk.",
+      "views": 0,
+      "isAI": true
+    },
+    {
+      "id": 17,
+      "title": "Cesur Şövalye",
+      "category": "Klasik Masallar",
+      "ageGroup": "6-8",
+      "icon": "🏹",
+      "summary": "Bu masal, cesaret ve fedakarlığın önemini anlatıyor. Cesur bir şövalye, krallığını kurtarmak için ejderhayla savaşmaya karar veriyor. Bu hikaye, çocuklara gerçek bir kahramanın nasıl olması gerektiğini gösteriyor.",
+      "characters": [
+        "Cesur Şövalye",
+        "Kötü Ejderha",
+        "Krallık Prensesi"
+      ],
+      "content": [
+        "Bir zamanlar, uzak bir krallıkta, cesur ve fedakar bir şövalye yaşıyordu. Bu şövalye, krallığını koruma görevini üstlenmişti ve halk tarafından saygı görüyordu.",
+        "Krallıkta bir gün, bir ejderha ortaya çıktı ve halkı korkutmaya başladı. Ejderha, krallığın en güzel yerlerini yakıp yıktı ve prensesi kaçırdı. Halk, krallığını kurtaracak bir kahramanın çıkmasını umut etti.",
+        "Cesur şövalye, ejderhayı yendiği takdirde prensesi kurtarabileceğini duydu. Bu görevi kabul etti ve ejderhayı aramaya başladı. Şövalye, long bir yolculuğa çıktı ve birçok engel ile karşılaştı.",
+        "Yolda, şövalye birçok zorlukla karşılaştı. Dağları aştı, nehirlere geçti ve ormanlardan geçti. Her adımda, cesareti ve kararlılığı artıyordu.",
+        "Nihayet, şövalye ejderhanın yaşadığı yere ulaştı. Ejderha, büyük ve korkunç bir yaratıktı. Ateş püskürtüyor ve herkesi korkutuyordu. Ancak şövalye, ejderhadan korkmadı.",
+        "Şövalye, ejderhayla savaşmaya başladı. Ejderha, ateş püskürttü ve şövalyeye saldırdı. Ancak şövalye, ejderhanın saldırılarını savuşturdu ve karşı atağa geçti.",
+        "Uzun bir savaşın ardından, şövalye ejderhayı yendi. Ejderha, yenilgiyi kabul etti ve prensesi serbest bıraktı. Prenses, şövalyeye teşekkür etti ve krallığa geri döndüler.",
+        "Krallıkta, şövalye bir kahraman olarak karşılandı. Halk, şövalyenin cesaretini ve fedakarlığını övdü. Şövalye, krallığın kahramanı oldu ve adı, krallıkta efsane olarak kaldı.",
+        "Cesur şövalyenin bu hikayesi, çocuklara cesaretin ve fedakarlığın önemini öğretir. Bir gün, kendi cesaretlerini keşfedecekler ve gerçek kahramanlar gibi olacaklar."
+      ],
+      "moral": "Cesaret ve fedakarlık, bir kahramanın en önemli özellikleri arasındadır. Cesur şövalyenin hikayesi, çocuklara gerçek bir kahramanın nasıl olması gerektiğini gösterir ve onları cesaretlerini keşfetmeye teşvik eder.",
+      "views": 0,
+      "isAI": true
+    },
+    {
+      "id": 18,
+      "title": "Kahraman Baba",
+      "category": "Modern Masallar",
+      "ageGroup": "6-8",
+      "icon": "🦸‍♂️",
+      "summary": "Bir babanın ailesini korumak için gösterdiği kahramanlık, sevgi ve fedakarlık hikayesini anlatıyor. Bu hikaye, çocuklara ailenin önemini ve bir babanın sevgisini gösterir. Kahraman Baba, zorlu bir durumda ailesini nasıl kurtarır?",
+      "characters": [
+        "Baba",
+        "Anne",
+        "Küçük Kız",
+        "Küçük Oğlan"
+      ],
+      "content": [
+        "Bir zamanlar, güzel bir kasabada yaşayan bir aileyi tanıyorduk. Baba, ailesini her şeyden çok seviyordu ve onlarla mutlu bir yaşam sürmek istiyordu.",
+        "Baba, çalışkan ve fedakar bir insandı. Her gün, ailesinin iyiliğini düşünerek çalışırdı. Anne, evin hanımefendisiydi ve çocuklarla ilgilenirdi.",
+        "Küçük Kız ve Küçük Oğlan, babalarından çok hoşlanırdı. Onların kahraman babalarını her zaman örnek alırlardı. Bir gün, kasabaları bir yangın tehdidiyle karşı karşıya kaldı.",
+        "Yangın, kasabanın yakınındaki ormanda çıkmış ve hızla kasabaya doğru yayılıyordu. Baba, ailesini korumak için bir plan做mek zorunda kaldı.",
+        "Baba, ailesini güvenli bir yere götürmek için acele etti. Anne, Küçük Kız ve Küçük Oğlan'ı alarak kasabanın dışına yöneldiler. Baba, yangın söndürme ekibine katıldı ve kasabayı kurtarmak için çalıştı.",
+        "Baba, yangınla mücadele ederken çok yoruldu, ama asla pes etmedi. Ailesini düşünerek, kasabayı kurtarmak için her şeyi yaptı. Yangın nihayet kontrol altına alındı ve kasaba kurtuldu.",
+        "Kasaba halkı, babanın kahramanlıklarını öğrendiğinde, ona çok teşekkür etti. Baba, sadece ailesini korumak istediğini, bu nedenle kahraman olmak istemediğini söyledi.",
+        "Ama herkes, babanın yaptığı fedakarlığı ve sevgiyi gördü. Baba, ailesine döndüğünde, Küçük Kız ve Küçük Oğlan ona sarıldı ve 'Sen bizim için her zaman kahramansın, Baba' dediler.",
+        "Anne de babasına sarıldı ve 'Sen gerçekten bir kahramansın, ama bizim için her zaman sevgi ve fedakarlık olan bir baba olarak kalacaksın' dedi. Baba, mutlu bir şekilde ailesiyle kucaklaştı ve hep birlikte güzel bir yaşam sürmeye devam ettiler."
+      ],
+      "moral": "Aile için yapılan fedakarlık ve sevgi, en büyük kahramanlıktır.",
+      "views": 0,
+      "isAI": true
+    }
+  ]
+}

@@ -1119,6 +1119,96 @@
       "image": "🥘",
       "isAI": true,
       "views": 0
+    },
+    {
+      "id": 25,
+      "name": "Domates Çorbası",
+      "category": "Çorbalar",
+      "servings": 4,
+      "cookTime": "25 dk",
+      "totalTime": "35 dk",
+      "restTime": "yok",
+      "ovenTemp": "yok",
+      "difficulty": "Kolay",
+      "description": "Lezzetli ve besleyici bir çorba olan domates çorbası, özellikle soğuk havalarda içimizi ısıtan bir seçim.",
+      "ingredients": [
+        {
+          "item": "domates",
+          "amount": "500 gr"
+        },
+        {
+          "item": "soğan",
+          "amount": "1 adet"
+        },
+        {
+          "item": "sarımsak",
+          "amount": "3 diş"
+        },
+        {
+          "item": "zeytinyağı",
+          "amount": "50 gr"
+        },
+        {
+          "item": "tuz",
+          "amount": "10 gr"
+        },
+        {
+          "item": "karabiber",
+          "amount": "5 gr"
+        },
+        {
+          "item": "şeker",
+          "amount": "10 gr"
+        },
+        {
+          "item": "su",
+          "amount": "1.5 su bardağı"
+        },
+        {
+          "item": "süt veya krema",
+          "amount": "1 su bardağı"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "text": "Soğanı ve sarımsakları ince bir şekilde doğrayın. Bir tencereye zeytinyağını koyun ve orta ateşte (180 ısı) 3 dk soğan ve sarımsağı kavurun.",
+          "time": "3 dk",
+          "heat": "Orta ısı"
+        },
+        {
+          "step": 2,
+          "text": "Domatesleri yıkayın, küp şeklinde doğrayın ve tencereye ekleyin. Orta-yüksek ateşte (200 ısı) 5 dk domatesleri kavurun.",
+          "time": "5 dk",
+          "heat": "Orta-yüksek ısı"
+        },
+        {
+          "step": 3,
+          "text": "Tuz, karabiber ve şekeri ekleyin. 2 dk daha karıştırın.",
+          "time": "2 dk",
+          "heat": "Orta ısı"
+        },
+        {
+          "step": 4,
+          "text": "Su ve süt veya kremayı ekleyin. Hepsini birlikte 10 dk, düşük ateşte (150 ısı) pişirin.",
+          "time": "10 dk",
+          "heat": "Düşük ısı"
+        },
+        {
+          "step": 5,
+          "text": "Çorba piştikten sonra blendır veya mikser ile pürüzsüz bir kıvam elde edin. Afiyet olsun!",
+          "time": "5 dk",
+          "heat": "Oda sıcaklığı"
+        }
+      ],
+      "tips": [
+        "Taze domatesler yerine konserve domates de kullanabilirsiniz.",
+        "Çorbayı daha kremsi yapmak için daha fazla süt veya krema ekleyebilirsiniz.",
+        "Lezzeti artırmak için bir kaşık kadar tereyağı veya ekstra zeytinyağı da ekleyebilirsiniz."
+      ],
+      "image": "🍲",
+      "views": 0,
+      "isAI": true
     }
   ]
 }

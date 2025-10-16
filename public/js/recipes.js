@@ -73,7 +73,7 @@ async function getRecipeDetails(id) {
 
 async function searchAIRecipe(query) {
     try {
-        const response = await fetch('/api/search-ai', {
+        const response = await fetch('/api/recipes/search-ai', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

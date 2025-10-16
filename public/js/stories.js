@@ -225,7 +225,7 @@ async function searchStory(query, ageGroup = null) {
     `;
 
     try {
-        const response = await fetch('/api/search-ai-story', {
+        const response = await fetch('/api/stories/search-ai', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
