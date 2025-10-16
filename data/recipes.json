@@ -1084,6 +1084,41 @@
       "image": "🍚",
       "isAI": true,
       "views": 0
+    },
+    {
+      "id": 24,
+      "name": "Turşu Çorbası",
+      "category": "Çorbalar",
+      "prepTime": "15 dakika",
+      "cookTime": "20 dakika",
+      "totalTime": "35 dakika",
+      "restTime": null,
+      "difficulty": "Kolay",
+      "servings": 4,
+      "ovenTemp": null,
+      "ingredients": [
+        "1 su bardağı turşu suyu",
+        "2 su bardağı su",
+        "1 su bardağı yağ",
+        "1 adet soğan",
+        "2 diş sarımsak",
+        "1 tatlı kaşığı karabiber",
+        "1 tatlı kaşığı tuz"
+      ],
+      "instructions": [
+        "Adım 1: Soğanı ve sarımsağı ince olarak doğrayın.",
+        "Adım 2: Tencereye yağ koyun ve orta ateşte 2 dakika kadar bekletin.",
+        "Adım 3: Soğanı ve sarımsağı ekleyin ve 3 dakika kadar kavurun.",
+        "Adım 4: Turşu suyuna ve suya ekleyerek 15 dakika kadar kaynatın.",
+        "Adım 5: Karabiber ve tuz ekleyerek 5 dakika daha kaynadıktan sonra servis yapın."
+      ],
+      "tips": [
+        "Turşu suyu çok önemlidir, çünkü çorbanın lezzetini verir.",
+        "Soğan ve sarımsakın doğru doğrama önemlidir."
+      ],
+      "image": "🥘",
+      "isAI": true,
+      "views": 0
     }
   ]
 }
