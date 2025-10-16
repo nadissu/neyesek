@@ -355,21 +355,26 @@ body {
 /* ==================== SCROLL INDICATOR ==================== */
 .scroll-indicator {
     position: absolute;
-    bottom: 40px;
+    bottom: -40px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 12px;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--text-color);
     animation: fadeIn 1s ease-out 1s both;
+    z-index: 100;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 50px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
 }
 
 .mouse {
     width: 28px;
     height: 44px;
-    border: 2px solid rgba(255, 255, 255, 0.8);
+    border: 2px solid var(--primary-color);
     border-radius: 15px;
     position: relative;
 }
@@ -377,7 +382,7 @@ body {
 .wheel {
     width: 4px;
     height: 8px;
-    background: rgba(255, 255, 255, 0.8);
+    background: var(--primary-color);
     border-radius: 2px;
     position: absolute;
     top: 8px;
@@ -399,7 +404,14 @@ body {
 
 .scroll-indicator p {
     font-size: 0.9rem;
-    font-weight: 500;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.scroll-indicator:hover {
+    transform: translateX(-50%) translateY(-4px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
 }
 
 /* ==================== FEATURES SECTION ==================== */
@@ -724,6 +736,100 @@ body {
 
     .stat-number {
         font-size: 3rem;
+    }
+
+    .platform-cards {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .platform-card {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .hero-content {
+        padding: 0 20px;
+    }
+
+    .container-landing {
+        padding: 0 20px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .scroll-indicator {
+        bottom: -30px;
+        padding: 16px 24px;
+    }
+    
+    .mouse {
+        width: 24px;
+        height: 38px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .cta-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+    .hero-headline,
+    .hero-headline-main {
+        font-size: 1.75rem;
+    }
+
+    .hero-subheadline {
+        font-size: 1rem;
+    }
+
+    .card-icon {
+        font-size: 3rem;
+    }
+
+    .card-title {
+        font-size: 1.5rem;
+    }
+
+    .card-description {
+        font-size: 0.9rem;
+    }
+
+    .pill {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .platform-card {
+        padding: 32px 24px;
+    }
+
+    .feature-card {
+        padding: 28px 20px;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+    }
+
+    .stat-label {
+        font-size: 0.9rem;
     }
 }
 

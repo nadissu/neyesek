@@ -27,6 +27,22 @@ router.get('/', (req, res) => {
   }
 });
 
+// Belirli bir masalı ID'ye göre getir
+router.get('/:id', (req, res) => {
+  try {
+    const data = readStories();
+    const story = data.stories.find(s => s.id === parseInt(req.params.id));
+    
+    if (story) {
+      res.json(story);
+    } else {
+      res.status(404).json({ error: 'Masal bulunamadı' });
+    }
+  } catch (error) {
+    res.status(500).json({ error: 'Masal detayları alınamadı' });
+  }
+});
+
 // Belirli bir masalın görüntülenme sayısını artır
 router.post('/:id/view', (req, res) => {
   try {

@@ -27,6 +27,22 @@ router.get('/', (req, res) => {
   }
 });
 
+// Belirli bir tarifi ID'ye göre getir
+router.get('/:id', (req, res) => {
+  try {
+    const data = readRecipes();
+    const recipe = data.recipes.find(r => r.id === parseInt(req.params.id));
+    
+    if (recipe) {
+      res.json(recipe);
+    } else {
+      res.status(404).json({ error: 'Tarif bulunamadı' });
+    }
+  } catch (error) {
+    res.status(500).json({ error: 'Tarif detayları alınamadı' });
+  }
+});
+
 // Belirli bir tarifi getir ve görüntülenme sayısını artır
 router.post('/:id/view', (req, res) => {
   try {

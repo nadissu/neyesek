@@ -89,25 +89,28 @@ function createStoryCard(story) {
     return `
         <div class="recipe-card" onclick="openStoryModal(${story.id})">
             <div class="recipe-card__header">
-                <div class="recipe-icon">${story.icon || '📖'}</div>
                 ${badge}
+                <div class="recipe-card__icon">${story.icon || '📖'}</div>
             </div>
-            <div class="recipe-card__body">
-                <h3 class="recipe-card__title">${story.title}</h3>
-                <p class="recipe-card__description">${story.summary}</p>
+            <div class="recipe-card__content">
+                <div class="recipe-card__body">
+                    <span class="recipe-card__category">${story.category}</span>
+                    <h3 class="recipe-card__title">${story.title}</h3>
+                    <p class="recipe-card__description">${story.summary}</p>
+                </div>
                 <div class="recipe-card__meta">
-                    <span class="meta-item">
+                    <div class="meta-item">
                         <span class="meta-icon">👁️</span>
                         <span class="meta-text">${story.views} okuma</span>
-                    </span>
-                    <span class="meta-item">
+                    </div>
+                    <div class="meta-item">
                         <span class="meta-icon">👶</span>
                         <span class="meta-text">${story.ageGroup}</span>
-                    </span>
-                    <span class="meta-item">
+                    </div>
+                    <div class="meta-item">
                         <span class="meta-icon">📚</span>
                         <span class="meta-text">${story.category}</span>
-                    </span>
+                    </div>
                 </div>
             </div>
         </div>

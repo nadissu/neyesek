@@ -125,24 +125,32 @@ function createRecipeCard(recipe) {
     card.onclick = () => showRecipeModal(recipe.id);
 
     const difficultyClass = getDifficultyClass(recipe.difficulty);
+    const aiBadge = recipe.isAI ? '<span class="recipe-badge ai-badge">✨ AI</span>' : '';
 
     card.innerHTML = `
-        <div class="recipe-card__icon">${recipe.image || '🍽️'}</div>
+        <div class="recipe-card__header">
+            ${aiBadge}
+            <div class="recipe-card__icon">${recipe.image || '🍽️'}</div>
+        </div>
         <div class="recipe-card__content">
-            <span class="recipe-card__category">${recipe.category}</span>
-            <h3 class="recipe-card__title">${recipe.name}</h3>
+            <div class="recipe-card__body">
+                <span class="recipe-card__category">${recipe.category}</span>
+                <h3 class="recipe-card__title">${recipe.name}</h3>
+                <p class="recipe-card__description">${recipe.description || 'Lezzetli bir tarif.'}</p>
+            </div>
             <div class="recipe-card__meta">
                 <div class="meta-item">
                     <span class="meta-icon">⏱️</span>
-                    <span>${recipe.prepTime}</span>
+                    <span class="meta-text">${recipe.cookTime || recipe.prepTime}</span>
                 </div>
                 <div class="meta-item">
                     <span class="meta-icon">👥</span>
-                    <span>${recipe.servings} kişilik</span>
+                    <span class="meta-text">${recipe.servings} kişi</span>
                 </div>
-            </div>
-            <div class="recipe-card__difficulty ${difficultyClass}">
-                ${recipe.difficulty}
+                <div class="meta-item">
+                    <span class="meta-icon">📊</span>
+                    <span class="meta-text">${recipe.difficulty}</span>
+                </div>
             </div>
         </div>
     `;
