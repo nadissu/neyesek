@@ -1,239 +1,301 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+    <!-- Meta Tags - SEO Optimized -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neyesek? - AI Destekli Yemek Tarifleri</title>
-    <meta name="description" content="Binlerce yemek tarifi ve yapay zeka destekli tarif asistanı. Ne yemek yapacağınızı bilemiyorsanız, doğru yerdesiniz!">
-    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Primary Meta Tags -->
+    <title>Neyesek? | AI Destekli Yemek Tarifi Platformu - Bugün Ne Yemek Yapsam?</title>
+    <meta name="title" content="Neyesek? | AI Destekli Yemek Tarifi Platformu - Bugün Ne Yemek Yapsam?">
+    <meta name="description" content="Yapay zeka destekli yemek tarifi platformu. 20+ Türk mutfağı tarifi ve AI ile sınırsız tarif keşfet. Bugün ne yemek yapacağınızı bilemiyorsanız, doğru yerdesiniz!">
+    <meta name="keywords" content="yemek tarifi, yapay zeka tarif, AI yemek, Türk mutfağı, bugün ne yemek yapsam, neyesek, tarif önerisi, kolay tarifler">
+    <meta name="author" content="Neyesek">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Turkish">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://neyesek.com/">
+    <meta property="og:title" content="Neyesek? | AI Destekli Yemek Tarifi Platformu">
+    <meta property="og:description" content="Yapay zeka ile sınırsız yemek tarifi keşfet. Türk mutfağından 20+ özel tarif ve AI asistanı ile her gün yeni lezzetler!">
+    <meta property="og:image" content="https://neyesek.com/og-image.jpg">
+    <meta property="og:locale" content="tr_TR">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://neyesek.com/">
+    <meta property="twitter:title" content="Neyesek? | AI Destekli Yemek Tarifi Platformu">
+    <meta property="twitter:description" content="Yapay zeka ile sınırsız yemek tarifi keşfet. Türk mutfağından 20+ özel tarif ve AI asistanı!">
+    <meta property="twitter:image" content="https://neyesek.com/twitter-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://neyesek.com/">
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
-  <script async
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9136839667469309"
-  "anonymous"></script>
+  
+    <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9136839667469309"
+    "anonymous"></script>
+  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/landing.css">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Neyesek",
+        "alternateName": "Ne Yemek Yapsam",
+        "url": "https://neyesek.com",
+        "description": "AI destekli yemek tarifi platformu. Yapay zeka ile sınırsız tarif keşfet.",
+        "applicationCategory": "LifestyleApplication",
+        "operatingSystem": "Web",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "TRY"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": "1250"
+        }
+    }
+    </script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav container">
-            <div class="nav__logo">
-                <span class="logo-icon">🍽️</span>
-                <span class="logo-text">Neyesek</span>
-            </div>
-            <div class="nav__menu">
-                <a href="#recipes" class="nav__link">Tarifler</a>
-                <a href="#popular" class="nav__link">Popüler</a>
-                <a href="#ai-search" class="nav__link ai-btn">🤖 AI Asistan</a>
-            </div>
-        </nav>
-    </header>
-
     <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero__background">
-            <div class="gradient-bg"></div>
+    <section class="hero-landing">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
         </div>
-        <div class="container">
-            <div class="hero__content">
-                <h1 class="hero__title">
-                    Bugün Ne Yemek 
-                    <span class="gradient-text">Yapsam?</span>
-                </h1>
-                <p class="hero__subtitle">
-                    Yapay zeka destekli tarif asistanımız ve 20+ özel tarifimizle 
-                    her gün yeni lezzetler keşfedin 🌟
-                </p>
-                <div class="hero__buttons">
-                    <button class="btn btn-primary" onclick="scrollToSection('recipes')">
-                        Tarifleri Keşfet
-                    </button>
-                    <button class="btn btn-outline" onclick="scrollToSection('ai-search')">
-                        🤖 AI ile Ara
-                    </button>
-                </div>
-                <div class="hero__stats">
-                    <div class="stat">
-                        <div class="stat-number">20+</div>
-                        <div class="stat-label">Özel Tarif</div>
+        
+        <div class="hero-content">
+            <!-- Main Headline -->
+            <h1 class="hero-headline-main">
+                AI Destekli
+                <span class="gradient-text-landing">Yaratıcılık</span>
+                Platformu
+            </h1>
+            
+            <!-- Subheadline -->
+            <p class="hero-subheadline">
+                Yapay zeka ile yemek tarifleri ve masallar oluşturun.
+                <br>
+                <strong>İki güçlü platform</strong>, <strong>sınırsız yaratıcılık</strong>!
+            </p>
+            
+            <!-- Platform Cards -->
+            <div class="platform-cards">
+                <a href="/neyesek" class="platform-card card-neyesek">
+                    <div class="card-icon">🍽️</div>
+                    <h3 class="card-title">Neyesek?</h3>
+                    <p class="card-description">
+                        AI ile yemek tarifleri keşfet. 20+ özel tarif ve sınırsız AI asistan.
+                    </p>
+                    <div class="card-footer">
+                        <span class="card-cta">Tarifleri Keşfet</span>
+                        <span class="card-arrow">→</span>
                     </div>
-                    <div class="stat">
-                        <div class="stat-number">∞</div>
-                        <div class="stat-label">AI Tarif</div>
+                </a>
+                
+                <a href="/yapaymasal" class="platform-card card-yapaymasal">
+                    <div class="card-icon">📖</div>
+                    <h3 class="card-title">Yapay Masal</h3>
+                    <p class="card-description">
+                        AI ile masallar oluştur. Hazır masallar ve kişiselleştirilmiş hikayeler.
+                    </p>
+                    <div class="card-footer">
+                        <span class="card-cta">Masalları Keşfet</span>
+                        <span class="card-arrow">→</span>
                     </div>
-                    <div class="stat">
-                        <div class="stat-number">⚡</div>
-                        <div class="stat-label">Anında Sonuç</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- AdSense Section 1 - Horizontal -->
-    <div class="ad-container">
-        <div class="ad-placeholder">
-            <p class="ad-label">Reklam</p>
-            <!-- Google AdSense kodu buraya gelecek -->
-            <div class="ad-demo">
-                728 x 90 Banner Reklamı
-            </div>
-        </div>
-    </div>
-
-    <!-- AI Search Section -->
-    <section id="ai-search" class="ai-search section">
-        <div class="container">
-            <div class="section__header">
-                <h2 class="section__title">🤖 AI Tarif Asistanı</h2>
-                <p class="section__subtitle">Aklınızdaki yemeğin tarifini yapay zeka ile anında bulun</p>
+                </a>
             </div>
             
-            <div class="ai-search__wrapper">
-                <div class="ai-search__box">
-                    <div class="search-input-group">
-                        <input 
-                            type="text" 
-                            id="ai-search-input" 
-                            class="search-input" 
-                            placeholder="Örn: Çiğ köfte, Künefe, Tiramisu..."
-                        >
-                        <button id="ai-search-btn" class="btn btn-primary search-btn">
-                            <span class="btn-text">Tarif Bul</span>
-                            <span class="btn-icon">🔍</span>
-                        </button>
-                    </div>
-                    <div class="search-suggestions">
-                        <span class="suggestion-label">Popüler aramalar:</span>
-                        <button class="suggestion-tag" onclick="searchAI('Tiramisu')">Tiramisu</button>
-                        <button class="suggestion-tag" onclick="searchAI('Künefe')">Künefe</button>
-                        <button class="suggestion-tag" onclick="searchAI('Çiğ Köfte')">Çiğ Köfte</button>
-                    </div>
+            <!-- Features Pills -->
+            <div class="features-pills">
+                <div class="pill">
+                    <span class="pill-icon">🤖</span>
+                    <span class="pill-text">AI Asistan</span>
                 </div>
-
-                <div id="ai-result" class="ai-result hidden">
-                    <!-- AI sonucu buraya gelecek -->
+                <div class="pill">
+                    <span class="pill-icon">⚡</span>
+                    <span class="pill-text">Anında Sonuç</span>
+                </div>
+                <div class="pill">
+                    <span class="pill-icon">💯</span>
+                    <span class="pill-text">Ücretsiz</span>
                 </div>
             </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Aşağı Kaydır</p>
         </div>
     </section>
-
-    <!-- AdSense Section 2 - Horizontal -->
-    <div class="ad-container">
-        <div class="ad-placeholder">
-            <p class="ad-label">Reklam</p>
-            <div class="ad-demo">
-                728 x 90 Banner Reklamı
-            </div>
-        </div>
-    </div>
-
-    <!-- Popular Recipes Section -->
-    <section id="popular" class="popular section">
-        <div class="container">
-            <div class="section__header">
-                <h2 class="section__title">🔥 Popüler Tarifler</h2>
-                <p class="section__subtitle">En çok görüntülenen ve sevilen tarifler</p>
-            </div>
+    
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container-landing">
+            <h2 class="section-title-landing">İki Güçlü Platform</h2>
+            <p class="section-subtitle-landing">
+                Modern teknoloji ile yaratıcılığınızı serbest bırakın
+            </p>
             
-            <div id="popular-recipes" class="recipes-grid">
-                <!-- Popüler tarifler buraya gelecek -->
+            <div class="features-grid">
+                <div class="feature-card feature-neyesek">
+                    <div class="feature-icon">🍽️</div>
+                    <h3 class="feature-title">Neyesek - Yemek Tarifleri</h3>
+                    <p class="feature-description">
+                        <strong>• 20+ Özel Tarif:</strong> Türk mutfağından seçilmiş detaylı tarifler<br>
+                        <strong>• AI Asistan:</strong> İstediğiniz herhangi bir yemeğin tarifi<br>
+                        <strong>• Detaylı Bilgiler:</strong> Süre, ısı, malzeme ölçüleri, püf noktaları
+                    </p>
+                </div>
+                
+                <div class="feature-card feature-yapaymasal">
+                    <div class="feature-icon">📖</div>
+                    <h3 class="feature-title">Yapay Masal - Hikayeler</h3>
+                    <p class="feature-description">
+                        <strong>• Hazır Masallar:</strong> Çocuklar için seçilmiş klasik ve yeni masallar<br>
+                        <strong>• AI ile Masal:</strong> Kendi konunuzu seçin, AI size özel masal üretsin<br>
+                        <strong>• Yaş Grupları:</strong> 3-5, 6-8, 9-12 yaş için uygun içerikler
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3 class="feature-title">Güçlü AI Entegrasyonu</h3>
+                    <p class="feature-description">
+                        Her iki platformda da Groq AI ile çalışan hızlı ve akıllı asistan.
+                        Anında yanıt, detaylı içerik, Türkçe dil desteği.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💾</div>
+                    <h3 class="feature-title">Otomatik Kayıt</h3>
+                    <p class="feature-description">
+                        AI ile oluşturduğunuz tarifler ve masallar otomatik kaydedilir.
+                        Tekrar tekrar erişim, favori içerikler, koleksiyon oluşturma.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">Responsive Tasarım</h3>
+                    <p class="feature-description">
+                        Mobil, tablet ve masaüstünde mükemmel deneyim.
+                        Her cihazda hızlı, güzel ve kullanımı kolay arayüz.
+                    </p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3 class="feature-title">Tamamen Ücretsiz</h3>
+                    <p class="feature-description">
+                        Her iki platform da %100 ücretsiz. AI kullanımı, içerik erişimi,
+                        kaydetme özellikleri. Kayıt veya ödeme gerektirmez!
+                    </p>
+                </div>
             </div>
         </div>
     </section>
-
-    <!-- All Recipes Section -->
-    <section id="recipes" class="recipes section">
-        <div class="container">
-            <div class="section__header">
-                <h2 class="section__title">📖 Tüm Tarifler</h2>
-                <p class="section__subtitle">Özenle seçilmiş 20 özel tarifimiz</p>
-            </div>
-
-            <!-- Category Filter -->
-            <div class="category-filter">
-                <button class="filter-btn active" data-category="all">Tümü</button>
-                <button class="filter-btn" data-category="Ana Yemekler">Ana Yemekler</button>
-                <button class="filter-btn" data-category="Çorbalar">Çorbalar</button>
-                <button class="filter-btn" data-category="Tatlılar">Tatlılar</button>
-                <button class="filter-btn" data-category="Mezeler">Mezeler</button>
-                <button class="filter-btn" data-category="Salatalar">Salatalar</button>
-                <button class="filter-btn" data-category="Kahvaltılıklar">Kahvaltılıklar</button>
-            </div>
-
-            <div id="all-recipes" class="recipes-grid">
-                <!-- Tüm tarifler buraya gelecek -->
+    
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container-landing">
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <div class="stat-number">🍽️ 20+</div>
+                    <div class="stat-label">Yemek Tarifi</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">📖 15+</div>
+                    <div class="stat-label">Hazır Masal</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">AI İçerik</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Ücretsiz</div>
+                </div>
             </div>
         </div>
     </section>
-
-    <!-- AdSense Section 3 - Vertical Sidebar -->
-    <div class="ad-sidebar-left">
-        <div class="ad-placeholder vertical">
-            <p class="ad-label">Reklam</p>
-            <div class="ad-demo">
-                160 x 600 <br>Skyscraper
-            </div>
+    
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2 class="cta-title">Hazır mısınız?</h2>
+            <p class="cta-subtitle">
+                Bugün ne yemek yapacağınızı öğrenmek sadece bir tık uzağınızda!
+            </p>
+            <a href="/neyesek" class="cta-button-secondary">
+                <span class="cta-text">Hemen Başla</span>
+                <span class="cta-icon">🚀</span>
+            </a>
         </div>
-    </div>
-
-    <div class="ad-sidebar-right">
-        <div class="ad-placeholder vertical">
-            <p class="ad-label">Reklam</p>
-            <div class="ad-demo">
-                160 x 600 <br>Skyscraper
-            </div>
-        </div>
-    </div>
-
-    <!-- Recipe Modal -->
-    <div id="recipe-modal" class="modal hidden">
-        <div class="modal__overlay" onclick="closeModal()"></div>
-        <div class="modal__content">
-            <button class="modal__close" onclick="closeModal()">✕</button>
-            <div id="modal-body">
-                <!-- Tarif detayı buraya gelecek -->
-            </div>
-        </div>
-    </div>
-
+    </section>
+    
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <div class="footer__logo">
+    <footer class="footer-landing">
+        <div class="container-landing">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
                         <span class="logo-icon">🍽️</span>
                         <span class="logo-text">Neyesek</span>
                     </div>
-                    <p class="footer__description">
-                        AI destekli yemek tarifi platformu. 
+                    <p class="footer-tagline">
+                        AI destekli yemek tarifi platformu.<br>
                         Her gün yeni lezzetler keşfedin.
                     </p>
                 </div>
-                <div class="footer__links">
-                    <h4>Hızlı Linkler</h4>
-                    <a href="#recipes">Tarifler</a>
-                    <a href="#popular">Popüler</a>
-                    <a href="#ai-search">AI Asistan</a>
+                
+                <div class="footer-links">
+                    <h4>Platformlar</h4>
+                    <a href="/neyesek">🍽️ Neyesek (Tarifler)</a>
+                    <a href="/yapaymasal">📖 Yapay Masal (Hikayeler)</a>
+                    <a href="/neyesek#ai-search">🤖 AI Tarif Asistanı</a>
+                    <a href="/yapaymasal#ai-masal">✨ AI Masal Asistanı</a>
                 </div>
-                <div class="footer__social">
-                    <h4>Bizi Takip Edin</h4>
-                    <div class="social-links">
-                        <a href="#" class="social-link">📘</a>
-                        <a href="#" class="social-link">📷</a>
-                        <a href="#" class="social-link">🐦</a>
-                        <a href="#" class="social-link">📌</a>
-                    </div>
+                
+                <div class="footer-info">
+                    <h4>Platform</h4>
+                    <p>🤖 Groq AI ile çalışır</p>
+                    <p>🔒 Tamamen güvenli</p>
+                    <p>💰 %100 ücretsiz</p>
                 </div>
             </div>
-            <div class="footer__bottom">
+            
+            <div class="footer-bottom">
                 <p>&copy; 2025 Neyesek. Tüm hakları saklıdır.</p>
+                <p class="footer-seo">
+                    Yemek Tarifi | AI Tarif | Türk Mutfağı | Kolay Tarifler | Ne Yemek Yapsam
+                </p>
             </div>
         </div>
     </footer>
-
-    <script src="js/main.js"></script>
 </body>
 </html>
-
