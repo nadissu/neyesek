@@ -31,6 +31,37 @@ app.get('/yapaymasal', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'yapaymasal.html'));
 });
 
+// Yasal Sayfalar
+app.get('/gizlilik-politikasi', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'gizlilik-politikasi.html'));
+});
+
+app.get('/kullanim-sartlari', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'kullanim-sartlari.html'));
+});
+
+app.get('/cerez-politikasi', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'cerez-politikasi.html'));
+});
+
+// Kurumsal Sayfalar
+app.get('/hakkimizda', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'hakkimizda.html'));
+});
+
+app.get('/iletisim', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'iletisim.html'));
+});
+
+// İçerik Sayfaları
+app.get('/sss', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'sss.html'));
+});
+
+app.get('/blog', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'blog.html'));
+});
+
 // API Routes
 app.use('/api/recipes', recipesRoutes);
 app.use('/api/stories', storiesRoutes);

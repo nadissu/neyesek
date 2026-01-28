@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim | Neyesek - AI Destekli Yemek Tarifleri</title>
+    <meta name="description"
+        content="Neyesek ile iletişime geçin. Sorularınız, önerileriniz veya geri bildirimleriniz için bize ulaşın.">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="/" class="nav__logo">
+                <span class="logo-icon">🍽️</span>
+                <span class="logo-text">Neyesek</span>
+            </a>
+            <div class="nav__menu">
+                <a href="/neyesek" class="nav__link">Tarifler</a>
+                <a href="/yapaymasal" class="nav__link">Masallar</a>
+                <a href="/hakkimizda" class="nav__link">Hakkımızda</a>
+                <a href="/iletisim" class="nav__link active">İletişim</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1 class="contact-title">
+                Bizimle <span class="gradient-text">İletişime</span> Geçin
+            </h1>
+            <p class="contact-subtitle">
+                Sorularınız, önerileriniz veya geri bildirimleriniz için buradayız
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <main class="contact-page">
+        <div class="container">
+            <div class="contact-grid">
+
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h2>📧 Mesaj Gönderin</h2>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Adınız Soyadınız *</label>
+                            <input type="text" id="name" name="name" required placeholder="Adınızı girin">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-posta Adresiniz *</label>
+                            <input type="email" id="email" name="email" required placeholder="ornek@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Konu *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Bir konu seçin</option>
+                                <option value="genel">Genel Soru</option>
+                                <option value="tarif">Tarif Önerisi</option>
+                                <option value="hata">Hata Bildirimi</option>
+                                <option value="isbirligi">İş Birliği</option>
+                                <option value="reklam">Reklam</option>
+                                <option value="diger">Diğer</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mesajınız *</label>
+                            <textarea id="message" name="message" rows="6" required
+                                placeholder="Mesajınızı buraya yazın..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>Gönder</span>
+                            <span class="btn-icon">📨</span>
+                        </button>
+                    </form>
+                    <div id="form-message" class="form-message hidden"></div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-section">
+                    <div class="contact-info-card">
+                        <div class="info-icon">📧</div>
+                        <h3>E-posta</h3>
+                        <p>Sorularınız için bize e-posta gönderin:</p>
+                        <a href="mailto:iletisim@neyesek.com" class="info-link">iletisim@neyesek.com</a>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="info-icon">⏰</div>
+                        <h3>Yanıt Süresi</h3>
+                        <p>Mesajlarınıza genellikle 24-48 saat içinde yanıt veriyoruz.</p>
+                        <p class="info-note">Hafta sonları yanıt süremiz biraz daha uzun olabilir.</p>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="info-icon">🌐</div>
+                        <h3>Sosyal Medya</h3>
+                        <p>Bizi sosyal medyada takip edin:</p>
+                        <div class="social-links-contact">
+                            <a href="#" class="social-link-contact" title="Facebook">📘</a>
+                            <a href="#" class="social-link-contact" title="Instagram">📷</a>
+                            <a href="#" class="social-link-contact" title="Twitter">🐦</a>
+                            <a href="#" class="social-link-contact" title="Pinterest">📌</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="info-icon">❓</div>
+                        <h3>Sık Sorulan Sorular</h3>
+                        <p>Belki sorunuzun cevabı zaten burada:</p>
+                        <a href="/sss" class="btn btn-outline btn-small">SSS Sayfasına Git</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Preview -->
+            <section class="contact-faq">
+                <h2>Hızlı Yanıtlar</h2>
+                <div class="faq-preview-grid">
+                    <div class="faq-preview-item">
+                        <h3>AI Tarif Asistanı nasıl çalışır?</h3>
+                        <p>Arama kutusuna istediğiniz yemeğin adını yazın, Groq AI size anında detaylı bir tarif
+                            oluşturur.</p>
+                    </div>
+                    <div class="faq-preview-item">
+                        <h3>Platform ücretsiz mi?</h3>
+                        <p>Evet! Neyesek ve tüm özellikleri tamamen ücretsizdir. Kayıt veya ödeme gerektirmez.</p>
+                    </div>
+                    <div class="faq-preview-item">
+                        <h3>Tarif önerisinde bulunabilir miyim?</h3>
+                        <p>Elbette! Yukarıdaki formu kullanarak tarif önerilerinizi bize iletebilirsiniz.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <div class="footer__logo">
+                        <span class="logo-icon">🍽️</span>
+                        <span class="logo-text">Neyesek</span>
+                    </div>
+                    <p class="footer__description">
+                        AI destekli yemek tarifi platformu.
+                        Her gün yeni lezzetler keşfedin.
+                    </p>
+                </div>
+                <div class="footer__links">
+                    <h4>Platformlar</h4>
+                    <a href="/neyesek">🍽️ Tarifler</a>
+                    <a href="/yapaymasal">📖 Masallar</a>
+                    <a href="/blog">📝 Blog</a>
+                    <a href="/sss">❓ SSS</a>
+                </div>
+                <div class="footer__links">
+                    <h4>Kurumsal</h4>
+                    <a href="/hakkimizda">Hakkımızda</a>
+                    <a href="/iletisim">İletişim</a>
+                </div>
+                <div class="footer__links">
+                    <h4>Yasal</h4>
+                    <a href="/gizlilik-politikasi">Gizlilik Politikası</a>
+                    <a href="/kullanim-sartlari">Kullanım Şartları</a>
+                    <a href="/cerez-politikasi">Çerez Politikası</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2025 Neyesek. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple form handling (in production, this would send to a backend)
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const formMessage = document.getElementById('form-message');
+            const form = this;
+
+            // Show success message
+            formMessage.innerHTML = '✅ Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.';
+            formMessage.classList.remove('hidden');
+            formMessage.classList.add('success');
+
+            // Reset form
+            form.reset();
+
+            // Hide message after 5 seconds
+            setTimeout(() => {
+                formMessage.classList.add('hidden');
+            }, 5000);
+        });
+    </script>
+</body>
+
+</html>
