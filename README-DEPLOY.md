@@ -9,7 +9,7 @@ Bu doküman **neyesek** Node.js uygulamasını (PM2 + Nginx + Cloudflare Origin 
 * **Node.js app (Express)**: `server.js`
 * **Port (origin)**: `3011`
 * **PM2 process adı**: `neyesek`
-* **Sunucu**: `46.203.248.145`
+* **Sunucu**: `31.56.60.97`
 * **Domain**: `https://neyesek.yoursidetech.com` (Cloudflare proxy açık)
 * **Nginx**: Reverse proxy → `127.0.0.1:3011`
 * **SSL**: Cloudflare **Origin** sertifikası (Full Strict)
@@ -23,12 +23,12 @@ Bu doküman **neyesek** Node.js uygulamasını (PM2 + Nginx + Cloudflare Origin 
 1. **Sunucuya bağlan**
 
    ```bash
-   ssh deploy@46.203.248.145
+   ssh root@31.56.60.97
    ```
 2. **Projeye gir**
 
    ```bash
-   cd /home/deploy/apps/neyesek/neyesek
+   cd /var/www/neyesek
    ```
 3. **Son değişiklikleri çek**
 
@@ -80,7 +80,7 @@ module.exports = {
     {
       name: "neyesek",
       script: "server.js",
-      cwd: "/home/deploy/apps/neyesek/neyesek",
+      cwd: "/var/www/neyesek",
       instances: 1,
       exec_mode: "fork",
       env: {
@@ -238,7 +238,7 @@ pm2 reload neyesek
 `~/.bashrc` içine alias:
 
 ```bash
-alias neyesek-deploy='cd /home/deploy/apps/neyesek/neyesek && git pull && npm ci --silent && pm2 reload neyesek && pm2 logs neyesek --lines 20'
+alias neyesek-deploy='cd /var/www/neyesek && git pull && npm ci --silent && pm2 reload neyesek && pm2 logs neyesek --lines 20'
 ```
 
 Kullanım:
