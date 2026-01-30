@@ -18,7 +18,7 @@ function setupEventListeners() {
     // AI search button
     const searchBtn = document.getElementById('ai-search-btn');
     const searchInput = document.getElementById('ai-search-input');
-    
+
     searchBtn.addEventListener('click', handleAISearch);
     searchInput.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') {
@@ -257,14 +257,20 @@ async function handleAISearch() {
 
     try {
         const result = await searchAIRecipe(query);
-        displayAIResult(result);
-        
-        // Eğer tarif kaydedildiyse, tarifleri yenile
-        if (result.saved === true) {
-            await loadRecipes();
-            console.log('✅ Tarifler yenilendi, yeni AI tarifi listeye eklendi!');
+
+        // API {success, recipe, message} formatında döndürüyor
+        if (result.success && result.recipe) {
+            displayAIResult(result.recipe);
+
+            // Eğer tarif kaydedildiyse (message'da "kaydedildi" varsa), tarifleri yenile
+            if (result.message && result.message.includes('kaydedildi')) {
+                await loadRecipes();
+                console.log('✅ Tarifler yenilendi, yeni AI tarifi listeye eklendi!');
+            }
+        } else {
+            showError('AI tarif bulunamadı. Lütfen tekrar deneyin.');
         }
-        
+
         // Scroll to result
         resultDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     } catch (error) {
@@ -277,56 +283,51 @@ async function handleAISearch() {
 
 function displayAIResult(recipe) {
     const resultDiv = document.getElementById('ai-result');
-    
+
     // Meta bilgileri oluştur
     const metaItems = [
         recipe.category ? `<div class="meta-item"><span class="meta-icon">📂</span><span>${recipe.category}</span></div>` : '',
         recipe.prepTime ? `<div class="meta-item"><span class="meta-icon">🔪</span><span>Hazırlık: ${recipe.prepTime}</span></div>` : '',
         recipe.cookTime ? `<div class="meta-item"><span class="meta-icon">🔥</span><span>Pişirme: ${recipe.cookTime}</span></div>` : '',
         recipe.totalTime ? `<div class="meta-item"><span class="meta-icon">⏱️</span><span>Toplam: ${recipe.totalTime}</span></div>` : '',
-        recipe.restTime ? `<div class="meta-item"><span class="meta-icon">💤</span><span>Dinlenme: ${recipe.restTime}</span></div>` : '',
+        recipe.restTime && recipe.restTime !== 'yok' ? `<div class="meta-item"><span class="meta-icon">💤</span><span>Dinlenme: ${recipe.restTime}</span></div>` : '',
         `<div class="meta-item"><span class="meta-icon">👥</span><span>${recipe.servings} kişilik</span></div>`,
         `<div class="meta-item"><span class="meta-icon">📊</span><span>${recipe.difficulty}</span></div>`,
-        recipe.ovenTemp ? `<div class="meta-item"><span class="meta-icon">🌡️</span><span>Fırın: ${recipe.ovenTemp}</span></div>` : ''
+        recipe.ovenTemp && recipe.ovenTemp !== 'yok' ? `<div class="meta-item"><span class="meta-icon">🌡️</span><span>Fırın: ${recipe.ovenTemp}</span></div>` : ''
     ].filter(item => item !== '').join('');
-    
-    // Kayıt durumu mesajı
-    let saveStatusHTML = '';
-    if (recipe.saved === true) {
-        saveStatusHTML = `
-            <div class="save-status success">
-                <span class="status-icon">✅</span>
-                <span class="status-text">Tarif koleksiyonunuza kaydedildi! (ID: ${recipe.id})</span>
-            </div>
-        `;
-    } else if (recipe.saved === false && recipe.existingId) {
-        saveStatusHTML = `
-            <div class="save-status info">
-                <span class="status-icon">ℹ️</span>
-                <span class="status-text">Bu tarif zaten koleksiyonunuzda mevcut. 
-                <a href="#" onclick="showRecipeModal(${recipe.existingId}); return false;" class="recipe-link">Görüntüle</a>
-                </span>
-            </div>
-        `;
-    } else if (recipe.saved === false && recipe.saveError) {
-        saveStatusHTML = `
-            <div class="save-status error">
-                <span class="status-icon">⚠️</span>
-                <span class="status-text">${recipe.saveError}</span>
-            </div>
-        `;
-    }
-    
+
+    // Malzemeleri formatla (obje veya string olabilir)
+    const ingredientsHTML = recipe.ingredients.map(ing => {
+        if (typeof ing === 'object' && ing.item) {
+            return `<li><strong>${ing.amount}</strong> ${ing.item}</li>`;
+        }
+        return `<li>${ing}</li>`;
+    }).join('');
+
+    // Yapılış adımlarını formatla (obje veya string olabilir)
+    const instructionsHTML = recipe.instructions.map(step => {
+        if (typeof step === 'object' && step.text) {
+            let stepText = step.text;
+            if (step.time && step.heat) {
+                stepText += ` <span class="step-meta">(${step.time}, ${step.heat})</span>`;
+            } else if (step.time) {
+                stepText += ` <span class="step-meta">(${step.time})</span>`;
+            }
+            return `<li>${stepText}</li>`;
+        }
+        return `<li>${step}</li>`;
+    }).join('');
+
     resultDiv.innerHTML = `
-        ${saveStatusHTML}
-        
         <div class="ai-result__header">
             <div class="ai-result__icon">${recipe.image || '🤖'}</div>
             <div>
                 <h3 class="ai-result__title">${recipe.name}</h3>
-                ${recipe.isAI ? '<span class="ai-result__badge">AI ile Oluşturuldu</span>' : ''}
+                <span class="ai-result__badge">AI ile Oluşturuldu ✨</span>
             </div>
         </div>
+
+        ${recipe.description ? `<p class="ai-result__description">${recipe.description}</p>` : ''}
 
         <div class="ai-result__meta">
             ${metaItems}
@@ -335,14 +336,14 @@ function displayAIResult(recipe) {
         <div class="ai-result__section">
             <h3>🛒 Malzemeler</h3>
             <ul>
-                ${recipe.ingredients.map(ing => `<li>${ing}</li>`).join('')}
+                ${ingredientsHTML}
             </ul>
         </div>
 
         <div class="ai-result__section">
             <h3>👨‍🍳 Yapılışı</h3>
             <ol>
-                ${recipe.instructions.map(step => `<li>${step}</li>`).join('')}
+                ${instructionsHTML}
             </ol>
         </div>
 
@@ -367,7 +368,7 @@ function displayAIResult(recipe) {
 }
 
 // Window function for suggestion tags
-window.searchAI = function(query) {
+window.searchAI = function (query) {
     document.getElementById('ai-search-input').value = query;
     handleAISearch();
 };
